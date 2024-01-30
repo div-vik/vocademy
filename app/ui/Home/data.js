@@ -149,3 +149,51 @@ export const features = [
     title: "Effective Teamwork",
   },
 ];
+
+export const faqs = [
+  {
+    question: "What is vocational training?",
+  },
+  {
+    question: "How do I sign up for an account on Vocademyy?",
+  },
+  {
+    question: "What courses does Voademyy offer?",
+  },
+  {
+    question: "What is the fee and duration of the courses?",
+  },
+  {
+    question: "How do I receive my certificate after completing my course?",
+  },
+  {
+    question: "Is there a refund policy available?",
+  },
+  {
+    question: "How does Vocademyy ensure a supportive learning environment?",
+  },
+  {
+    question: "Are there further opportunities after completion of a course?",
+  },
+  {
+    question: "Do I have lifetime access to the resources?",
+  },
+  {
+    question: "Are there any additional charges?",
+  },
+  {
+    question: "Are there free courses available?",
+  },
+  {
+    question: "Can I access my courses on multiple devices?",
+  },
+  {
+    question: "Are there any prerequisites for enrolling in these courses??",
+  },
+  {
+    question: "Can I interact with my trainer and other members?",
+  },
+  {
+    question: "Are there additional resources available in the offline mode?",
+  },
+];
