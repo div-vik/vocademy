@@ -4,6 +4,7 @@ import Topic from "./ui/Home/Topic";
 import Feedback from "./ui/Home/Feedback";
 import Features from "./ui/Home/Features";
 import Contact from "./ui/Home/Contact";
+import Faq from "./ui/Home/Faq";
 
 export default function Home() {
   return (
@@ -24,6 +25,8 @@ export default function Home() {
           explore courses
         </button>
       </div>
+
+      <Faq />
     </div>
   );
 }
