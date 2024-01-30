@@ -1,4 +1,6 @@
 import "./globals.css";
+import Footer from "./ui/Footer";
+import Navbar from "./ui/Navbar";
 
 export const metadata = {
   title: "Vocademy",
@@ -9,7 +11,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
     </html>
   );
 }
