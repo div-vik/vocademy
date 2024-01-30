@@ -14,7 +14,7 @@ const Faq = () => {
             key={faq.question}
             className="flex justify-between gap-[47px]  items-center mb-[9px]"
           >
-            <p className="text-[10.583px] font-medium">{faq.question}</p>
+            <p className="text-[10.4px] font-medium">{faq.question}</p>
             <div className="p-[1px] rounded-full bg-[#FF77A1] flex items-center">
               <MdArrowDownward className="w-[12.529px] h-[12.529px]" />
             </div>
