@@ -1,10 +1,17 @@
+"use client";
+
 import Image from "next/image";
 import React from "react";
+import { navItems } from "./Home/data";
+import Link from "next/link";
+import { usePa, usePathname } from "next/navigation";
 
 const Navbar = () => {
+  const pathname = usePathname();
+  console.log(pathname);
   return (
-    <div className="mt-[75px] px-[25px]">
-      <div className="flex items-center">
+    <nav className="flex justify-around items-center mt-[75px] md:mt-[97px] lg:mt-[43px] px-[25px] md:px-[79px] lg:px-[110px]">
+      <div className="flex flex-1 items-center">
         <div className="w-[39px] h-[44.426px] mr-[5px]">
           <Image
             className="object-contain"
@@ -18,7 +25,29 @@ const Navbar = () => {
           vocademy
         </p>
       </div>
-    </div>
+
+      <div className="flex flex-2 justify-center items-center">
+        <ul className="hidden lg:flex justify-center items-center lg:gap-[50px] xl:gap-[72px] text-[13px] font-semibold">
+          {navItems.map((item) => (
+            <li
+              key={item.url}
+              className={
+                pathname === item.url &&
+                "bg-primaryBlue rounded-[33px] px-[39px] py-[14px]"
+              }
+            >
+              <Link href={item.url}>{item.title}</Link>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className=" hidden lg:flex flex-1 justify-end items-center">
+        <button className="rounded-[33px] px-[35px] py-[13px] bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-[13px] font-bold">
+          register now
+        </button>
+      </div>
+    </nav>
   );
 };
 
