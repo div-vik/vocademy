@@ -8,7 +8,6 @@ import { usePa, usePathname } from "next/navigation";
 
 const Navbar = () => {
   const pathname = usePathname();
-  console.log(pathname);
   return (
     <nav className="flex justify-around items-center mt-[75px] md:mt-[97px] lg:mt-[43px] px-[25px] md:px-[79px] lg:px-[110px]">
       <div className="flex flex-1 items-center">
@@ -27,7 +26,7 @@ const Navbar = () => {
       </div>
 
       <div className="flex flex-2 justify-center items-center">
-        <ul className="hidden lg:flex justify-center items-center lg:gap-[50px] xl:gap-[72px] text-[13px] font-semibold">
+        <ul className="hidden xl:flex justify-center items-center lg:gap-[50px] xl:gap-[72px] text-[13px] font-semibold">
           {navItems.map((item) => (
             <li
               key={item.url}
@@ -42,7 +41,7 @@ const Navbar = () => {
         </ul>
       </div>
 
-      <div className=" hidden lg:flex flex-1 justify-end items-center">
+      <div className=" hidden xl:flex flex-1 justify-end items-center">
         <button className="rounded-[33px] px-[35px] py-[13px] bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-[13px] font-bold">
           register now
         </button>

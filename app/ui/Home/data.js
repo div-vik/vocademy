@@ -1,4 +1,31 @@
+export const navItems = [
+  {
+    title: "home",
+    url: "/",
+  },
+  {
+    title: "about us",
+    url: "/about-us",
+  },
+  {
+    title: "courses",
+    url: "/courses",
+  },
+  {
+    title: "careers",
+    url: "/careers",
+  },
+];
+
 export const topics = [
+  {
+    icon: "/communication.svg",
+    title: "Communication Skills",
+  },
+  {
+    icon: "/tailoring.svg",
+    title: "Tailoring",
+  },
   {
     icon: "/yoga.svg",
     title: "Yoga",
@@ -15,70 +42,38 @@ export const topics = [
     icon: "/coding.svg",
     title: "Coding",
   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
-  //   {
-  //     icon: "/yoga.svg",
-  //     title: "Yoga",
-  //   },
+  {
+    icon: "/financial.svg",
+    title: "Financial Literacy",
+  },
+  {
+    icon: "/career.svg",
+    title: "Career Counselling",
+  },
 ];
 
 export const feedbacks = [
   {
     name: "- Krish Parihar",
     review:
-      "I am so glad to be trained in life skills by Vocademy. I have learned to cope with adolescent issues and balance my academics simultaneously. I have seen so many changes.",
-    designation: "College student",
+      'I must admit that I was aggressive and reluctant to study. As someone who has Down syndrome, it was hard to read and write but after continuous coaching, my abilities improved with time. I gradually learned to do basic skills myself and even talk fluently. My parents are so happy now. I feel stable and focused."',
+    designation: "Student",
   },
   {
     name: "- Krish Parihar",
     review:
-      "I am so glad to be trained in life skills by Vocademy. I have learned to cope with adolescent issues and balance my academics simultaneously. I have seen so many changes.",
-    designation: "College student",
+      'I must admit that I was aggressive and reluctant to study. As someone who has Down syndrome, it was hard to read and write but after continuous coaching, my abilities improved with time. I gradually learned to do basic skills myself and even talk fluently. My parents are so happy now. I feel stable and focused."',
+    designation: "Student",
   },
   {
     name: "- Krish Parihar",
     review:
-      "I am so glad to be trained in life skills by Vocademy. I have learned to cope with adolescent issues and balance my academics simultaneously. I have seen so many changes.",
-    designation: "College student",
+      'I must admit that I was aggressive and reluctant to study. As someone who has Down syndrome, it was hard to read and write but after continuous coaching, my abilities improved with time. I gradually learned to do basic skills myself and even talk fluently. My parents are so happy now. I feel stable and focused."',
+    designation: "Student",
   },
 ];
 
-export const checks = [
+export const checksLeft = [
   {
     title: "1-on-1 Guidance",
   },
@@ -106,6 +101,9 @@ export const checks = [
   {
     title: "Access to resources for a lifetime",
   },
+];
+
+export const checksRight = [
   {
     title: "No-Limit to Learning",
   },
