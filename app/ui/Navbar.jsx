@@ -21,7 +21,7 @@ const Navbar = () => {
           />
         </div>
         <p className="text-[#000] items-center font-semibold text-xl">
-          vocademy
+          vocademyy
         </p>
       </div>
 

@@ -3,7 +3,7 @@ import Footer from "./ui/Footer";
 import Navbar from "./ui/Navbar";
 
 export const metadata = {
-  title: "Vocademy",
+  title: "vocademyy",
   description:
     "Unleash your true potential by learning life skills live with us.",
 };
