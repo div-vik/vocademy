@@ -19,6 +19,18 @@ export const navItems = [
 
 export const topics = [
   {
+    icon: "/spelling.svg",
+    title: "Spelling",
+  },
+  {
+    icon: "/phonics.png",
+    title: "Phonics",
+  },
+  {
+    icon: "/foundation.svg",
+    title: "Foundation Courses",
+  },
+  {
     icon: "/communication.svg",
     title: "Communication Skills",
   },
@@ -47,8 +59,20 @@ export const topics = [
     title: "Financial Literacy",
   },
   {
-    icon: "/career.svg",
+    icon: "/career.png",
     title: "Career Counselling",
+  },
+  {
+    icon: "/public.png",
+    title: "Public Speaking",
+  },
+  {
+    icon: "/creative.png",
+    title: "Creative Writing",
+  },
+  {
+    icon: "/computer.svg",
+    title: "Basic Computer Skills",
   },
 ];
 
