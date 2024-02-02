@@ -1,6 +1,5 @@
 import React from "react";
 import { faqs } from "./data";
-import Image from "next/image";
 import Accordian from "./Accordian";
 
 const Faq = () => {
