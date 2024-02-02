@@ -39,6 +39,7 @@ const Accordian = ({ faq }) => {
             )}
           </div>
         </div>
+
         {/* Answer */}
         {isOpen && (
           <div className="flex py-2">
