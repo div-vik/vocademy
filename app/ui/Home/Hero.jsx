@@ -4,10 +4,10 @@ import React from "react";
 const Hero = () => {
   return (
     <div className="mt-[65px] lg:mt-[85px] xl:mt-[20px] flex flex-col justify-center items-center lg:px-[82px] xl:px-[123px] 2xl:px-[140px]">
-      <div className="flex flex-col justify-center items-center relative">
-        <div className="hidden xl:flex w-[1400px] h-[438.633px]">
+      <div className="flex flex-col justify-center px-20 w-screen items-center relative">
+        <div className="hidden xl:flex w-screen h-[438.633px]">
           <Image
-            className="object-contain"
+            className="object-contain w-screen"
             src="/homeBg.png"
             alt="background"
             width={1400}
@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hidden xl:flex justify-start items-center gap-[60px] -mt-[75px] z-10 relative">
+      <div className="hidden xl:flex justify-center px-10 items-center w-screen gap-[60px] -mt-[75px] z-10 relative">
         <div className="lg:w-[113.542px] xl:w-[116.4px] lg:h-[279.328px] xl:h-[286.342px]">
           <Image
             className="object-contain lg:w-[113.542px] xl:w-[116.4px] lg:h-[279.328px] xl:h-[286.342px]"

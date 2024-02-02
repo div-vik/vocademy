@@ -1,5 +1,5 @@
 import React from "react";
-import TopicCard from "../TopicCard";
+import TopicCard from "./TopicCard";
 import { topics } from "./data";
 
 const Topic = () => {
@@ -11,7 +11,7 @@ const Topic = () => {
         </p>
       </div>
 
-      <div className="mt-9 lg:mt-[61px] flex px-[10px] py-2 gap-[30.22px] lg:gap-[50px] overflow-x-scroll 2xl:overflow-hidden">
+      <div className="mt-9 lg:mt-[61px] flex px-[10px] py-2 gap-[30.22px] lg:gap-[50px] overflow-x-scroll">
         {topics?.map((topic, index) => (
           <div key={index}>
             <TopicCard title={topic.title} icon={topic.icon} />

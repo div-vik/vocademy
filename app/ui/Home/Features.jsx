@@ -7,10 +7,10 @@ const Features = () => {
     <div className="mt-[36px] lg:mt-[150.22px]">
       <div className="px-[37.29px] md:px-[150px] lg:px-[92px] xl:px-[71px] 2xl:px-0">
         <div className="w-full flex flex-col justify-center items-center">
-          <div className="w-[37.99px] lg:w-[82.289px] h-[43px] lg:h-[93.136px]">
+          <div className="w-[37.99px] lg:w-[82.289px] xl:w-[64px] h-[43px] lg:h-[93.136px] xl:h-[68.74px]">
             <Image
               src="/feature1.svg"
-              className="object-contain w-[37.99px] lg:w-[82.289px] h-[43px] lg:h-[93.136px]"
+              className="object-contain w-[37.99px] lg:w-[82.289px] xl:w-[64px] h-[43px] lg:h-[93.136px] xl:h-[68.74px]"
               alt="feature1"
               width={37.99}
               height={43}
@@ -19,14 +19,14 @@ const Features = () => {
 
           <div className="flex flex-col justify-center items-center mt-[9px] lg:mt-[19.49px] xl:w-full">
             <div className="flex justify-center items-center mx-[91.56px] xl:px-[139px] w-full">
-              <div className="w-[17.463px] lg:w-[37.825px] h-[17.463px] lg:h-[37.825px] rounded-full bg-[#F91992]"></div>
+              <div className="w-[17.463px] lg:w-[37.825px] xl:w-[42px] h-[17.463px] lg:h-[37.825px] rounded-full bg-[#F91992]"></div>
               <hr className="border-[#F91992] border-[0.805px] w-[50%]" />
-              <div className="w-[17.463px] lg:w-[37.825px] h-[17.463px] lg:h-[37.825px] rounded-full bg-[#F91992]"></div>
+              <div className="w-[17.463px] lg:w-[37.825px] xl:w-[42px] h-[17.463px] lg:h-[37.825px] rounded-full bg-[#F91992]"></div>
               <hr className="border-[#F91992] hidden xl:flex border-[0.805px] w-[50%]" />
-              <div className="w-[17.463px] lg:w-[37.825px] h-[17.463px] lg:h-[37.825px] hidden xl:flex rounded-full bg-[#F91992]"></div>
+              <div className="w-[17.463px] lg:w-[37.825px] xl:w-[42px] h-[17.463px] lg:h-[37.825px] hidden xl:flex rounded-full bg-[#F91992]"></div>
             </div>
 
-            <div className="flex justify-between items-center w-full">
+            <div className="flex justify-between items-center w-full 2xl:gap-14">
               <div className="text-center mt-[16.93px] lg:mt-[18.34px] xl:mt-[15.26px] flex flex-col justify-between items-center">
                 <p className="text-[12.6px] lg:text-[25.509px] leading-tight w-[164.578px] lg:w-[356.469px] xl:w-[311px] font-bold text-[#000]">
                   Learn from the Experts themselves
@@ -37,7 +37,16 @@ const Features = () => {
                   extra mile.
                 </p>
               </div>
-              <div className="text-center lg:-mt-[20px] flex flex-col justify-between items-center">
+              <div className="hidden xl:flex mt-20 w-[41px] h-[49.742px] lg:w-[88.805px] lg:h-[107.74px] xl:w-[62px] xl:h-[89.269px]">
+                <Image
+                  src="/feature2.svg"
+                  alt="feature2"
+                  width={41}
+                  height={49.742}
+                  className="object-contain w-[41px] h-[49.742px] lg:w-[88.805px] lg:h-[107.74px] xl:w-[62px] xl:h-[89.269px]"
+                />
+              </div>
+              <div className="text-center lg:-mt-[20px] xl:pl-16 flex flex-col justify-between items-center">
                 <p className="text-[12.6px] lg:text-[25.509px] leading-tight w-[164.578px] lg:w-[356.469px] xl:w-[311px] font-bold text-[#000]">
                   Get Personalised Feedback
                 </p>
@@ -45,6 +54,15 @@ const Features = () => {
                   Ask as many questions and request feedback directly from your
                   expert tutor. You never left unanswered at any step.
                 </p>
+              </div>
+              <div className="hidden xl:flex mt-20 w-[44px] lg:w-[95.303px] xl:w-[88.81px] h-[47.259px] lg:h-[102.36px] xl:h-[90px]">
+                <Image
+                  src="/feature3.svg"
+                  alt="feature3"
+                  width={44}
+                  height={47.259}
+                  className="object-contain w-[44px] lg:w-[95.303px] xl:w-[88.81px] h-[47.259px] lg:h-[102.36px] xl:h-[90px]"
+                />
               </div>
               <div className="text-center mt-[8.47px] lg:mt-[18.34px] hidden xl:flex flex-col justify-center items-center">
                 <p className="text-[12px] lg:text-[27px] leading-tight font-bold text-[#000] w-[195.271px] lg:w-[422.949px] xl:w-[369px]">
@@ -58,29 +76,29 @@ const Features = () => {
               </div>
             </div>
 
-            <div className="hidden xl:flex justify-center items-center gap-[413px]">
-              <div>
+            <div className="hidden justify-center items-center gap-[413px]">
+              <div className="w-[41px] h-[49.742px] lg:w-[88.805px] lg:h-[107.74px] xl:w-[62px] xl:h-[89.269px]">
                 <Image
                   src="/feature2.svg"
                   alt="feature2"
                   width={41}
                   height={49.742}
-                  className="object-contain w-[41px] h-[49.742px] lg:w-[88.805px] lg:h-[107.74px]"
+                  className="object-contain w-[41px] h-[49.742px] lg:w-[88.805px] lg:h-[107.74px] xl:w-[62px] xl:h-[89.269px]"
                 />
               </div>
-              <div>
+              <div className="w-[44px] lg:w-[95.303px] xl:w-[88.81px] h-[47.259px] lg:h-[102.36px] xl:h-[90px]">
                 <Image
                   src="/feature3.svg"
                   alt="feature3"
                   width={44}
                   height={47.259}
-                  className="object-contain w-[44px] lg:w-[95.303px] h-[47.259px] lg:h-[102.36px]"
+                  className="object-contain w-[44px] lg:w-[95.303px] xl:w-[88.81px] h-[47.259px] lg:h-[102.36px] xl:h-[90px]"
                 />
               </div>
             </div>
           </div>
 
-          <div className="flex xl:hidden justify-center items-center gap-[28px] w-full mt-[39.56px]">
+          <div className="flex xl:hidden justify-center items-center gap-[28px] w-full mt-[39.56px] lg:mt-[87.16px]">
             <div className="w-[41px] h-[49.742px] lg:w-[88.805px] lg:h-[107.74px] mt-[45px] lg:mt-[110px]">
               <Image
                 src="/feature2.svg"
@@ -114,7 +132,7 @@ const Features = () => {
             </div>
           </div>
 
-          <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start mt-[66.56px] lg:mt-[146.13px] xl:mt-[70px] xl:w-full xl:gap-[100px]">
+          <div className="flex flex-col xl:flex-row justify-center items-center xl:items-start mt-[66.56px] lg:mt-[146.13px] xl:mt-[50px] xl:w-full xl:gap-[100px]">
             <div className="hidden xl:flex justify-center items-center w-[92.32px] h-full my-auto">
               <Image
                 src="/feature4.svg"
@@ -248,7 +266,7 @@ const Features = () => {
           </div>
         </div>
 
-        <button className="w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue mt-[27.15px] lg:mt-[102.45px] xl:mt-[110px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
+        <button className="w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] mt-[27.15px] lg:mt-[102.45px] xl:mt-[110px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
           explore courses
         </button>
       </div>
@@ -286,13 +304,13 @@ const Features = () => {
               ))}
             </div>
 
-            <button className="hidden xl:flex justify-center items-center w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue mt-[27.15px] lg:mt-[118.91px] xl:mt-[60px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
+            <button className="hidden xl:flex justify-center items-center w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] mt-[27.15px] lg:mt-[118.91px] xl:mt-[60px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
               register now
             </button>
           </div>
         </div>
 
-        <button className="xl:hidden w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue mt-[27.15px] lg:mt-[118.91px] xl:mt-[110px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
+        <button className="xl:hidden w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] mt-[27.15px] lg:mt-[118.91px] xl:mt-[110px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
           register now
         </button>
       </div>
