@@ -32,7 +32,7 @@ const Navbar = () => {
               key={item.url}
               className={
                 pathname === item.url &&
-                "bg-primaryBlue rounded-[33px] px-[39px] py-[14px]"
+                "bg-secondaryBlue rounded-[33px] bg-opacity-70 px-[39px] py-[14px]"
               }
             >
               <Link href={item.url}>{item.title}</Link>
@@ -42,7 +42,7 @@ const Navbar = () => {
       </div>
 
       <div className=" hidden xl:flex flex-1 justify-end items-center">
-        <button className="rounded-[33px] px-[35px] py-[13px] bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-[13px] font-bold">
+        <button className="rounded-[33px] px-[35px] py-[13px] bg-opacity-70 hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] ease-in-out duration-100 hover:text-[#fff] bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-[13px] font-bold">
           register now
         </button>
       </div>
