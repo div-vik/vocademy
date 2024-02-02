@@ -228,7 +228,7 @@ const Features = () => {
               </div>
             ))}
           </div>
-          <div>
+          <div className="pl-10 lg:pl-0">
             {checksRight.map((check) => (
               <div key={check.title} className="flex mb-[16.4px]">
                 <p className="flex gap-[15.34px] items-center">

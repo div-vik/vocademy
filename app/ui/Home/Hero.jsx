@@ -3,7 +3,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="mt-[65px] lg:mt-[85px] flex flex-col justify-center items-center lg:px-[82px] xl:px-[123px] 2xl:px-[140px]">
+    <div className="mt-[65px] lg:mt-[85px] xl:mt-[20px] flex flex-col justify-center items-center lg:px-[82px] xl:px-[123px] 2xl:px-[140px]">
       <div className="flex flex-col justify-center items-center relative">
         <div className="hidden xl:flex w-[1400px] h-[438.633px]">
           <Image
@@ -106,8 +106,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <button className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% font-bold text-[15.758px] lg:text-[20px] p-[4px] lg:p-[6px] rounded-[66px] xl:-mt-[80px]">
-        <span className="flex w-full lowercase text-center rounded-[66px] bg-[#fff] px-[22.85px] lg:px-[29px] py-[10.55px] lg:py-[11px]">
+      <button className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] ease-in-out duration-100 font-bold text-[15.758px] lg:text-[20px] p-[4px] lg:p-[6px] rounded-[66px] xl:-mt-[80px] z-20">
+        <span className="flex w-full lowercase text-center rounded-[66px] bg-[#fff] hover:bg-[#000] hover:text-[#fff] px-[22.85px] lg:px-[29px] py-[10.55px] lg:py-[11px] ease-in-out duration-500">
           EXPLORE COURSES
         </span>
       </button>
