@@ -1,25 +1,37 @@
 "use client";
 
-import React, { useEffect, useRef, useState } from "react";
+import React, { useState } from "react";
 import { MdArrowDownward } from "react-icons/md";
-import autoAnimate from "@formkit/auto-animate";
+import { AnimatePresence, motion } from "framer-motion";
 
 const Accordian = ({ faq }) => {
   const [isOpen, setIsOpen] = useState(false);
-  const parent = useRef(null);
 
-  useEffect(() => {
-    parent.current && autoAnimate(parent.current);
-  }, [parent]);
+  // const motionVars = {
+  //   initial: {
+  //     scaleY: 0,
+  //   },
+  //   animate: {
+  //     scaleY: 1,
+  //     transition: {
+  //       duration: 0.5,
+  //       ease: [0.12, 0, 0.39, 0],
+  //     },
+  //   },
+  //   exit: {
+  //     scaleY: 0,
+  //     transition: {
+  //       duration: 0.5,
+  //       ease: [0.22, 1, 0.36, 1],
+  //     },
+  //   },
+  // };
 
   const handleClick = () => {
     setIsOpen(!isOpen);
   };
   return (
-    <div
-      ref={parent}
-      className="flex justify-between gap-[47px] w-full items-start mb-[9px]"
-    >
+    <div className="flex justify-between gap-[47px] w-full items-start mb-[9px]">
       {/* Question */}
       <div
         onClick={handleClick}
@@ -42,9 +54,9 @@ const Accordian = ({ faq }) => {
 
         {/* Answer */}
         {isOpen && (
-          <div className="flex py-2">
+          <div className="flex origin-top py-2">
             <span className="font-bold pr-2">A.</span>
-            <div>
+            <div className="pr-5 md:pr-10">
               <p>{faq.answer}</p>
               {faq.points && (
                 <div className="mt-4 flex flex-col gap-2">
