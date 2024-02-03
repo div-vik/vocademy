@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import { checksLeft, checksRight, features } from "./data";
+import Button from "../Button";
 
 const Features = () => {
   return (
@@ -268,9 +269,10 @@ const Features = () => {
           </div>
         </div>
 
-        <button className="w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] mt-[27.15px] lg:mt-[102.45px] xl:mt-[110px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
-          explore courses
-        </button>
+        <Button
+          title="explore courses"
+          className="mt-[27.15px] lg:mt-[102.45px] xl:mt-[110px] text-[15.758px] lg:text-xl"
+        />
       </div>
 
       <div className="mt-[43px] lg:mt-[141.89px] xl:mt-[42px] px-[37px] flex flex-col justify-center items-center">
@@ -306,15 +308,14 @@ const Features = () => {
               ))}
             </div>
 
-            <button className="hidden xl:flex justify-center items-center w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] mt-[27.15px] lg:mt-[118.91px] xl:mt-[60px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
-              register now
-            </button>
+            <Button
+              title="register now"
+              className="hidden xl:flex justify-center items-center text-[15.758px] lg:text-xl"
+            />
           </div>
         </div>
 
-        <button className="xl:hidden w-[159.152px] lg:w-[202.344px] xl:w-[202px] h-[52px] lg:h-[66.112px] xl:h-[66px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] mt-[27.15px] lg:mt-[118.91px] xl:mt-[110px] text-center text-[15.758px] lg:text-xl font-bold lowercase">
-          register now
-        </button>
+        <Button title="register now" className="xl:hidden" />
       </div>
     </div>
   );

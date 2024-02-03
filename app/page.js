@@ -5,6 +5,7 @@ import Feedback from "./ui/Home/Feedback";
 import Features from "./ui/Home/Features";
 import Contact from "./ui/Home/Contact";
 import Faq from "./ui/Home/Faq";
+import Button from "./ui/Button";
 
 export default function Home() {
   return (
@@ -22,9 +23,10 @@ export default function Home() {
             coaches. Join us in revolutionising life skills as a trainer…
           </p>
 
-          <button className="h-[52px] flex justify-center items-center lg:h-[66px] px-[48px] lg:px-[62px] py-[17] lg:py-[21px] rounded-[33px] bg-gradient-to-r from-secondaryPink to-secondaryBlue hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] mt-[35px] lg:mt-[66px] xl:mt-[57px] text-center text-[15.758px] lg:text-[32px] font-bold lowercase">
-            join us
-          </button>
+          <Button
+            title="join us"
+            className=" mt-[35px] lg:mt-[66px] xl:mt-[57px] text-[15.758px] lg:text-[32px]"
+          />
         </div>
       </div>
 
