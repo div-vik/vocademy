@@ -22,12 +22,12 @@ const Topic = () => {
           Explore by Topic
         </p>
       </div>
-      <div>
-        <Slider {...settings}>
-          {topics?.map((topic, index) => (
-            <TopicCard key={index} title={topic.title} icon={topic.icon} />
-          ))}
-        </Slider>
+      <div className="flex mt-[36px] lg:mt-[61px] xl:mt-[48px] gap-[30.21px] lg:gap-[55px] xl:gap-[55px]">
+        {/* <Slider {...settings}> */}
+        {topics?.map((topic, index) => (
+          <TopicCard key={index} title={topic.title} icon={topic.icon} />
+        ))}
+        {/* </Slider> */}
       </div>
     </div>
   );
