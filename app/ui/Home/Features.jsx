@@ -227,38 +227,40 @@ const Features = () => {
           WHAT ELSE IS INCLUDED?
         </p>
 
-        <div className="mt-[47px] xl:mt-[87px] flex flex-col lg:flex-row w-full justify-center items-center lg:items-start lg:gap-[98.3px] text-[14.4px] lg:text-[17.131px] xl:text-2xl font-semibold">
-          <div>
+        <div className="mt-[47px] xl:mt-[87px] px-5 md:px-10 lg:px-0 w-full mx-auto md:mx-0 flex flex-col md:flex-row md:justify-center md:items-start md:gap-[98.3px] text-[14.4px] md:text-[17.131px] xl:text-2xl font-semibold">
+          <div className="">
             {checksLeft.map((check) => (
-              <div key={check.title} className="flex mb-[16.4px]">
+              <div key={check.title} className="flex mb-[16.4px] gap-[23px]">
+                <span className="w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]">
+                  <Image
+                    className="object-contain w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]"
+                    src="/check.svg"
+                    alt="check"
+                    width={22.009}
+                    height={19.341}
+                  />
+                </span>
                 <p className="flex gap-[15.34px] items-center">
-                  <span className="w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]">
-                    <Image
-                      className="object-contain w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]"
-                      src="/check.svg"
-                      alt="check"
-                      width={22.009}
-                      height={19.341}
-                    />
-                  </span>{" "}
+                  {" "}
                   {check.title}
                 </p>
               </div>
             ))}
           </div>
-          <div className="pl-10 lg:pl-0">
+          <div className="">
             {checksRight.map((check) => (
-              <div key={check.title} className="flex mb-[16.4px]">
+              <div key={check.title} className="flex mb-[16.4px] gap-[23px]">
+                <span className="w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]">
+                  <Image
+                    className="object-contain w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]"
+                    src="/check.svg"
+                    alt="check"
+                    width={22.009}
+                    height={19.341}
+                  />
+                </span>
                 <p className="flex gap-[15.34px] items-center">
-                  <span className="w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]">
-                    <Image
-                      className="object-contain w-[22.009px] h-[19.341px] lg:w-[23.556px] lg:h-[20.7px]"
-                      src="/check.svg"
-                      alt="check"
-                      width={22.009}
-                      height={19.341}
-                    />
-                  </span>{" "}
+                  {" "}
                   {check.title}
                 </p>
               </div>
