@@ -10,7 +10,7 @@ const Navbar = () => {
   const pathname = usePathname();
   return (
     <nav className="flex justify-around items-center mt-[75px] md:mt-[97px] lg:mt-[43px] px-[25px] md:px-[79px] lg:px-[110px]">
-      <div className="flex flex-1 items-center">
+      <Link href="/" className="flex flex-1 items-center">
         <div className="w-[39px] h-[44.426px] mr-[5px]">
           <Image
             className="object-contain"
@@ -23,7 +23,7 @@ const Navbar = () => {
         <p className="text-[#000] items-center font-semibold text-xl">
           vocademyy
         </p>
-      </div>
+      </Link>
 
       <div className="flex flex-2 justify-center items-center">
         <ul className="hidden xl:flex justify-center items-center lg:gap-[50px] xl:gap-[72px] text-[13px] font-semibold">
