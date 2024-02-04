@@ -3,7 +3,7 @@ import Button from "../ui/Button";
 
 const AboutUs = () => {
   return (
-    <div className="mt-[97.57px] lg:mt-[154.47px] xl:mt-[114.57px] flex flex-col justify-center items-center">
+    <div className="mt-[97.57px] lg:mt-[154.47px] xl:mt-[114.57px] mb-[117px] lg:mb-[60.66px] xl:mb-[59px] flex flex-col justify-center items-center">
       {/* Hero */}
       <div className="flex flex-col justify-center items-center">
         {/* BG and Text */}
