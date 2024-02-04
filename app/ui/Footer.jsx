@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-[10px]">
           <Link href="#">T&Cs</Link>
-          <Link href="#">Privacy policy</Link>
+          <Link href="/privacy-policy">Privacy policy</Link>
           <Link href="#">Refund policy</Link>
           <Link href="#">Cookie policy</Link>
         </div>
