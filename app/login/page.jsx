@@ -16,7 +16,7 @@ const Login = () => {
         <div className="w-full mt-[48px] lg:mt-[107px] xl:mt-[37px] px-[51px] lg:px-[187.4px] xl:px-[144px]">
           <form className="flex flex-col">
             <div className="lg:w-[527.053px] xl:w-[405px]">
-              <div className="flex flex-col lg:text-right lg:flex-row">
+              <div className="flex flex-col lg:text-right lg:flex-row items-center">
                 <label className="font-medium text-[14px] lg:text-[20.822px] xl:text-[16px] leading-[14.84px] lg:leading-[22.071px] xl:leading-[16.96px]">
                   Email
                 </label>
@@ -26,7 +26,7 @@ const Login = () => {
                 />
               </div>
 
-              <div className="flex flex-col lg:text-right lg:flex-row">
+              <div className="flex flex-col lg:text-right lg:flex-row items-center">
                 <label className="font-medium text-[14px] lg:text-[20.822px] xl:text-[16px] leading-[14.84px] lg:leading-[22.071px] xl:leading-[16.96px] mt-[42px] lg:mt-[31.23px]">
                   Password
                 </label>
