@@ -3,11 +3,13 @@ import React from "react";
 const PrivacyPolicy = () => {
   return (
     <div className="mt-[72.57px] lg:mt-[51.57px] xl:mt-[113px] px-[25px] lg:px-[54px] xl:px-[224px]">
+      {/* Privacy Policy */}
       <div>
+        {/* Title */}
         <p className="text-center text-[22.638px] lg:text-[36.93px] xl:text-[40px] font-bold text-primaryPink">
           Privacy Policy
         </p>
-
+        {/* Content */}
         <div className="mt-[40px] lg:mt-[64.94px] xl:mt-[70px] text-justify flex flex-col gap-[26px] lg:gap-[12.95px] xl:gap-[34px] text-[10.187px] lg:text-[16.619px] xl:text-[18px] font-medium tracking-[1.528px] lg:tracking-[2.493px] xl:tracking-[2.7px] leading-normal">
           <p>
             Vocademyy, a vocational online platform is committed to protecting
@@ -49,12 +51,14 @@ const PrivacyPolicy = () => {
           </p>
         </div>
       </div>
-
+      {/* Changes to this Privacy Policy */}
       <div className="mt-[50px] lg:mt-[101.57px] xl:mt-[103px] flex flex-col">
+        {/* Title */}
         <p className="text-center text-[22.638px] lg:text-[36.93px] xl:text-[40px] font-bold text-primaryPink">
           Changes to this Privacy Policy
         </p>
 
+        {/* Content */}
         <div className="mt-[26px] lg:mt-[64.94px] xl:mt-[70px] flex flex-col text-justify gap-[26px] lg:gap-[34.19px] xl:gap-[34px] text-[10.187px] lg:text-[16.619px] xl:text-[18px] font-medium tracking-[1.528px] lg:tracking-[2.493px] xl:tracking-[2.7px] leading-normal">
           <p>
             Vocademyy reserves the right to make changes to the policies or its
