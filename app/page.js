@@ -6,6 +6,7 @@ import Features from "./ui/Home/Features";
 import Contact from "./ui/Home/Contact";
 import Faq from "./ui/Home/Faq";
 import Button from "./ui/Button";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -23,10 +24,12 @@ export default function Home() {
             coaches. Join us in revolutionising life skills as a trainer…
           </p>
 
-          <Button
-            title="join us"
-            className=" mt-[35px] lg:mt-[66px] xl:mt-[57px] text-[15.758px] lg:text-[32px]"
-          />
+          <Link href="/careers">
+            <Button
+              title="join us"
+              className=" mt-[35px] lg:mt-[66px] xl:mt-[57px] text-[15.758px] lg:text-[32px]"
+            />
+          </Link>
         </div>
       </div>
 

@@ -107,14 +107,14 @@ const Hero = () => {
         </div>
       </div>
 
-      <Link
-        href="/login"
-        className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] ease-in-out duration-100 font-bold text-[15.758px] lg:text-[20px] p-[4px] lg:p-[6px] rounded-[66px] xl:-mt-[80px] z-20"
-      >
-        <span className="flex w-full lowercase text-center rounded-[66px] bg-[#fff] hover:bg-[#000] hover:text-[#fff] px-[22.85px] lg:px-[29px] py-[10.55px] lg:py-[11px] ease-in-out duration-500">
+      <button className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] ease-in-out duration-100 font-bold text-[15.758px] lg:text-[20px] p-[4px] lg:p-[6px] rounded-[66px] xl:-mt-[80px] z-20">
+        <Link
+          href="/courses"
+          className="flex w-full lowercase text-center rounded-[66px] bg-[#fff] hover:bg-[#000] hover:text-[#fff] px-[22.85px] lg:px-[29px] py-[10.55px] lg:py-[11px] ease-in-out duration-500"
+        >
           EXPLORE COURSES
-        </span>
-      </Link>
+        </Link>
+      </button>
     </div>
   );
 };

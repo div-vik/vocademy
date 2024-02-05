@@ -11,7 +11,7 @@ const Footer = () => {
           <Link href="#">services</Link>
           <Link href="#">contact us</Link>
         </div>
-        <div className="flex flex-col gap-[10px]">
+        <div className="hidden flex-col gap-[10px]">
           <Link href="#">FutureLearn Reviews</Link>
           <Link href="#">Learning guide</Link>
           <Link href="#">Certificates</Link>
@@ -19,7 +19,6 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-[10px]">
           <Link href="#">FAQs</Link>
-          <Link href="#">Contact Us</Link>
           <Link href="#">Career advice</Link>
         </div>
         <div className="flex flex-col gap-[10px]">

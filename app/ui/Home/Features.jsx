@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { checksLeft, checksRight, features } from "./data";
 import Button from "../Button";
+import Link from "next/link";
 
 const Features = () => {
   return (
@@ -269,10 +270,12 @@ const Features = () => {
           </div>
         </div>
 
-        <Button
-          title="explore courses"
-          className="mt-[27.15px] lg:mt-[102.45px] xl:mt-[110px] text-[15.758px] lg:text-xl"
-        />
+        <Link href="/courses">
+          <Button
+            title="explore courses"
+            className="mt-[27.15px] lg:mt-[102.45px] xl:mt-[110px] text-[15.758px] lg:text-xl"
+          />
+        </Link>
       </div>
 
       <div className="mt-[43px] lg:mt-[141.89px] xl:mt-[42px] px-[37px] flex flex-col justify-center items-center">
@@ -308,14 +311,18 @@ const Features = () => {
               ))}
             </div>
 
-            <Button
-              title="register now"
-              className="hidden xl:flex justify-center items-center text-[15.758px] lg:text-xl"
-            />
+            <Link href="/signup">
+              <Button
+                title="register now"
+                className="hidden xl:flex justify-center items-center text-[15.758px] lg:text-xl"
+              />
+            </Link>
           </div>
         </div>
 
-        <Button title="register now" className="xl:hidden" />
+        <Link href="/signup">
+          <Button title="register now" className="xl:hidden" />
+        </Link>
       </div>
     </div>
   );
