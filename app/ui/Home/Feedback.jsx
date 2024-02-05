@@ -4,7 +4,7 @@ import FeedbackCard from "./FeedbackCard";
 
 const Feedback = () => {
   return (
-    <div className="mt-[58.67px] lg:mt-[114.51px] xl:mt-[80.51px]">
+    <div className="mt-[58.67px] lg:mt-[114.51px] xl:mt-[83.51px]">
       <div className="flex justify-center items-center">
         <p className="text-center text-[24.744px] lg:text-[40px] font-bold">
           Here from our students

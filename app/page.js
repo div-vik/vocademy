@@ -10,7 +10,7 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center">
+    <div className="2xl:flex 2xl:flex-col 2xl:justify-center 2xl:items-center overflow-hidden">
       <Hero />
       <Topic />
       <Feedback />
