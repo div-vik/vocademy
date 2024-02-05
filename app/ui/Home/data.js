@@ -18,42 +18,42 @@ export const navItems = [
 ];
 
 export const topics = [
-  // {
-  //   icon: "/spelling.svg",
-  //   title: "Spelling",
-  // },
-  // {
-  //   icon: "/phonics.png",
-  //   title: "Phonics",
-  // },
-  // {
-  //   icon: "/foundation.svg",
-  //   title: "Foundation Courses",
-  // },
-  // {
-  //   icon: "/communication.svg",
-  //   title: "Communication Skills",
-  // },
-  // {
-  //   icon: "/tailoring.svg",
-  //   title: "Tailoring",
-  // },
-  // {
-  //   icon: "/yoga.svg",
-  //   title: "Yoga",
-  // },
-  // {
-  //   icon: "/personality.svg",
-  //   title: "Personality Development",
-  // },
-  // {
-  //   icon: "/cooking.svg",
-  //   title: "Cooking Lessons",
-  // },
-  // {
-  //   icon: "/coding.svg",
-  //   title: "Coding",
-  // },
+  {
+    icon: "/spelling.svg",
+    title: "Spelling",
+  },
+  {
+    icon: "/phonics.png",
+    title: "Phonics",
+  },
+  {
+    icon: "/foundation.svg",
+    title: "Foundation Courses",
+  },
+  {
+    icon: "/communication.svg",
+    title: "Communication Skills",
+  },
+  {
+    icon: "/tailoring.svg",
+    title: "Tailoring",
+  },
+  {
+    icon: "/yoga.svg",
+    title: "Yoga",
+  },
+  {
+    icon: "/personality.svg",
+    title: "Personality Development",
+  },
+  {
+    icon: "/cooking.svg",
+    title: "Cooking Lessons",
+  },
+  {
+    icon: "/coding.svg",
+    title: "Coding",
+  },
   {
     icon: "/financial.svg",
     title: "Financial Literacy",
