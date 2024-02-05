@@ -22,7 +22,7 @@ const AboutUs = () => {
         </div>
 
         <div className="w-[313px] lg:w-[660px] xl:w-[973px] mt-[32px] lg:mt-[61px] xl:mt-[49px]">
-          <p className="text-center text-[9.768px] lg:text-[16.489px] xl:text-[24px] font-normal tracking-[0.684px] lg:tracking-[1.154px] xl:tracking-[1.68px]">
+          <p className="text-center text-[9.768px] lg:text-[16.489px] xl:text-[24px] font-normal leading-tight tracking-[0.684px] lg:tracking-[1.154px] xl:tracking-[1.68px]">
             We are a passionate and optimism-filled online community dedicated
             to teaching life skills  to people across the globe. We are deriving
             outcomes and helping people achieve their goals. Right guidance is
@@ -33,7 +33,7 @@ const AboutUs = () => {
       </div>
 
       {/* Mission & Values */}
-      <div className="mt-[43px] lg:mt-[101px] w-full px-[42px] lg:px-[181px] xl:px-[178px]">
+      <div className="mt-[43px] lg:mt-[101px] xl:mt-[41px] w-full px-[42px] lg:px-[181px] xl:px-[178px]">
         <p className="uppercase text-[12.298px] lg:text-[23.533px] text-center font-bold">
           Mission & Values
         </p>

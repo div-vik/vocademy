@@ -32,7 +32,7 @@ const Navbar = () => {
               key={item.url}
               className={
                 pathname === item.url
-                  ? "bg-secondaryBlue rounded-[33px] bg-opacity-70 px-[39px] py-[14px]"
+                  ? "bg-primaryBlue rounded-[33px] px-[39px] py-[14px]"
                   : ""
               }
             >
