@@ -43,7 +43,7 @@ const Navbar = () => {
       </div>
 
       <div className=" hidden xl:flex flex-1 justify-end items-center">
-        <Link href="/signup">
+        <Link href="/register">
           <button className="rounded-[33px] px-[35px] py-[13px] bg-opacity-70 hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] ease-in-out duration-100 hover:text-[#fff] bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-[13px] font-bold">
             register now
           </button>

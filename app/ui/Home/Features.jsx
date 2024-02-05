@@ -311,7 +311,7 @@ const Features = () => {
               ))}
             </div>
 
-            <Link href="/signup">
+            <Link href="/register">
               <Button
                 title="register now"
                 className="hidden xl:flex justify-center items-center text-[15.758px] lg:text-xl"
@@ -320,7 +320,7 @@ const Features = () => {
           </div>
         </div>
 
-        <Link href="/signup">
+        <Link href="/register">
           <Button title="register now" className="xl:hidden" />
         </Link>
       </div>
