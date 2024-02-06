@@ -14,23 +14,23 @@ const Login = () => {
         </p>
 
         <form className="flex flex-col w-full mt-[48px] lg:mt-[107px] xl:mt-[37px] px-[51px] lg:px-[187.4px] xl:px-[144px]">
-          <div className="lg:w-[527.053px] xl:w-[405px] flex flex-col justify-start items-end">
+          <div className="lg:w-[527.053px] xl:w-[405px] flex flex-col justify-start items-start lg:items-end">
             <div className="flex flex-col lg:flex-row justify-center lg:items-center w-full lg:w-fit">
               <label className="font-medium text-[14px] lg:text-[20.822px] xl:text-[16px] text-start lg:mr-[28.38px] xl:mr-[22px] leading-[14.84px] lg:leading-[22.071px] xl:leading-[16.96px]">
                 Email
               </label>
               <input
-                className="w-full lg:w-[408.629px] xl:w-[314px] h-[32px] lg:h-[46.849px] xl:h-[36px] border-[2px] lg:border-[3.9px] xl:border-[3px] rounded-[9.73px] lg:rounded-[18.2px] xl:rounded-[14px] mt-[18px] lg:mt-0 border-primaryPink"
+                className="w-full lg:w-[408.629px] xl:w-[314px] h-[32px] lg:h-[46.849px] xl:h-[36px] px-3 focus:outline-none border-[2px] lg:border-[3.9px] xl:border-[3px] rounded-[9.73px] lg:rounded-[18.2px] xl:rounded-[14px] mt-[18px] lg:mt-0 border-primaryPink"
                 type="email"
               />
             </div>
 
-            <div className="flex flex-col lg:flex-row justify-center lg:items-center w-full lg:w-fit">
+            <div className="flex flex-col lg:flex-row justify-center lg:items-center w-full">
               <label className="font-medium text-[14px] lg:text-[20.822px] xl:text-[16px] lg:mr-[28.38px] xl:mr-[22px] leading-[14.84px] lg:leading-[22.071px] xl:leading-[16.96px] mt-[42px] lg:mt-[31.23px]">
                 Password
               </label>
               <input
-                className="w-full lg:w-[408.629px] xl:w-[314px] h-[32px] lg:h-[46.849px] xl:h-[36px] border-[2px] lg:border-[3.9px] xl:border-[3px] rounded-[9.73px] lg:rounded-[18.2px] xl:rounded-[14px] mt-[18px] lg:mt-[31.23px] border-primaryPink"
+                className="w-full lg:w-[408.629px] xl:w-[314px] h-[32px] lg:h-[46.849px] xl:h-[36px] px-3 focus:outline-none border-[2px] lg:border-[3.9px] xl:border-[3px] rounded-[9.73px] lg:rounded-[18.2px] xl:rounded-[14px] mt-[18px] lg:mt-[31.23px] border-primaryPink"
                 type="password"
               />
             </div>
