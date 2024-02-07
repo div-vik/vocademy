@@ -1,5 +1,5 @@
 import React from "react";
-import { faqs } from "./data";
+import { faqs } from "../../constant/data";
 import Accordian from "./Accordian";
 
 const Faq = () => {

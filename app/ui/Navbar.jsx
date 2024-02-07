@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import React from "react";
-import { navItems } from "./Home/data";
+import { navItems } from "../constant/data";
 import Link from "next/link";
 import { usePa, usePathname } from "next/navigation";
 

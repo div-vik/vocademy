@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import { checksLeft, checksRight, features } from "./data";
+import { checksLeft, checksRight, features } from "../../constant/data";
 import Button from "../Button";
 import Link from "next/link";
 

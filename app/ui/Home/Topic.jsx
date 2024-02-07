@@ -2,7 +2,7 @@
 
 import React from "react";
 import TopicCard from "./TopicCard";
-import { topics } from "./data";
+import { topics } from "../../constant/data";
 
 const Topic = () => {
   return (

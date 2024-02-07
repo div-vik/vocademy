@@ -1,5 +1,5 @@
 import React from "react";
-import { feedbacks } from "./data";
+import { feedbacks } from "../../constant/data";
 import FeedbackCard from "./FeedbackCard";
 
 const Feedback = () => {
