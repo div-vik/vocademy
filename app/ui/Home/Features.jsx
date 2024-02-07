@@ -321,7 +321,10 @@ const Features = () => {
         </div>
 
         <Link href="/register">
-          <Button title="register now" className="xl:hidden" />
+          <Button
+            title="register now"
+            className="xl:hidden lg:mt-[118.91px] text-[15.758px] lg:text-xl"
+          />
         </Link>
       </div>
     </div>
