@@ -16,6 +16,7 @@ module.exports = {
         primaryPink: "#F91992",
         secondaryPink: "#FF77A1",
         ternaryPink: "#FF6CA1",
+        quaternaryPink: "#F786BA",
         primaryBlue: "#75FCFF",
         secondaryBlue: "#99F9FF",
       },
