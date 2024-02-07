@@ -16,3 +16,22 @@
     @apply bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-transparent bg-clip-text;
   }
 }
+
+.checkbox-style {
+  appearance: none;
+  -webkit-appearance: none;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  font-size: 2rem;
+  border: 0.87px solid #f91992;
+  border-radius: 5.23px;
+}
+
+.checkbox-style::after {
+  content: "";
+  width: 1.4rem;
+  height: 1.4rem;
+  transform: scale(1);
+  background-color: green;
+}
