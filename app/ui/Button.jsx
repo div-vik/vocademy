@@ -2,6 +2,7 @@ import React from "react";
 
 const Button = ({ title, className }) => {
   return (
+    // Require title, text size and margin as props
     <button
       className={
         className +
