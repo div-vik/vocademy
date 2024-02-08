@@ -261,3 +261,693 @@ export const faqs = [
     question: "Are there additional resources available in the offline mode?",
   },
 ];
+
+export const courses = [
+  {
+    name: "Spellings",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: [
+      "50 words",
+      "Missing and Jumbled words",
+      "Word search",
+      "Joining word parts",
+      "Spelling crossword and puzzle",
+    ],
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+    sessions: [
+      {
+        name: "Sight Words",
+        description:
+          "The focus will be on teaching sight words. This helps in effective communication . Sight words used in writing and everyday life and focus on high-frequency sight words. Students will receive assessment reviews and personal guidance.",
+      },
+      {
+        name: "2-3 Letter blends",
+        description:
+          "Students will be taught combinations of consonant sounds occurring together in words. This will develop the overall phonetic understanding of the student. Effectively aids in expanding the vocabulary. Identifying these blends helps students not only grasp fluency in reading but also dramatically boosts their confidence.",
+      },
+      {
+        name: "3-4 Letter blends",
+        description:
+          "At this stage, it is time to elevate the phonemic awareness of the students. This helps with further decoding skills and increases confidence in reading multisyllabic words. but prepares them for advanced phonics and improves their writing skills.",
+      },
+      {
+        name: "Soft c,g & silent letters",
+        description:
+          "It raises awareness on spelling patterns helping in applying these accurately in spellings, prepares students for advanced phonics and improves their writing skills. The idea is to foster critical thinking here",
+      },
+      {
+        name: "Prefixes and Suffixes",
+        description:
+          "In this session, prefixes and suffixes are taught to grow linguistic understanding of the student.Prefixes and suffixes are fundamental aspects of stronger decoding skills and comprehension.",
+      },
+    ],
+  },
+  {
+    name: "Phonics",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: [
+      "Basics of Phonetics",
+      "Reading and Writing Phonetics",
+      "Stringing Letter sounds for word formation",
+      "Segmentation and Identification of letter sounds",
+      "Tricks and techniques for learning non-phonetic words",
+    ],
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Letter sounds s,a,t",
+        description:
+          "Working on the foundation of building blocks of words. This helps raise phonemic awareness by focusing on sounding out words. Literacy development builds with mastering the process of sounding out words.",
+      },
+      {
+        name: "Letter sounds p,n,c,k,e",
+        description:
+          "Further workin on sounding out words, helps the child recognize familiar patterns for a reading readiness and word formation.",
+      },
+      {
+        name: "Letter sounds h,r,m and d",
+        description:
+          "Fluency in verbal expression of the child improves as their reading and communication skills start enhancing. It fosters independent reading and confidence to better recognize words.",
+      },
+      {
+        name: "Letter sounds g,o,u,l",
+        description:
+          "By this session, your child's spellings checks are being supported by focusing on sounds g,o,u and l. It is time to prepare the child for the complex reading tasks in a very fun and easy way.",
+      },
+      {
+        name: "Letter sounds oa, ie, ee, or",
+        description:
+          "A systematic approach and structural learning approach has been adopted for phonic education throughout . This helps in further vocabulary expansion and reading success ahead in life.",
+      },
+    ],
+  },
+  {
+    name: "Academic Foundation Courses",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Communication Skills",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Tailoring",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Yoga",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Public Speaking",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Basic Computer Skills",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Life Skills",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Personality Development",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Cooking Lessons",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Coding",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Financial Literacy",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Career Counselling",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+  {
+    name: "Creative Writing",
+    totalSessions: 5,
+    sessionDuration: "1 hour",
+    batchOptions: "1:1",
+    studentsInGroup: 5,
+    ageGroup: "8-10 years old",
+    studyMaterials: "Soft copy shall be provided",
+    certificate: "Digital certificate shall be provided",
+    fees: {
+      group: "3000/-",
+      oneToOne: "800/-",
+    },
+    timingsAndDate: null,
+    additionalLearning: null,
+    description:
+      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+    sessions: [
+      {
+        name: "Mathematical Concepts",
+        description:
+          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+      },
+      {
+        name: "Learning English",
+        description:
+          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+      },
+      {
+        name: "Introduction to Science",
+        description:
+          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+      },
+      {
+        name: "Hindi Language",
+        description:
+          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+      },
+      {
+        name: "Kannada Language",
+        description:
+          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+      },
+    ],
+  },
+];
