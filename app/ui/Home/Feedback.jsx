@@ -11,16 +11,51 @@ const Feedback = () => {
         </p>
       </div>
 
-      <div className="mt-[31px] lg:mt-[83px] xl:mt-[62px] px-[10px] flex justify-center xl:justify-normal items-center overflow-hidden xl:overflow-x-scroll 2xl:overflow-hidden xl:px-[52px] gap-[45.26px] lg:gap-[100.16px]">
-        {feedbacks.map((feedback, index) => (
-          <div key={index}>
-            <FeedbackCard
-              name={feedback.name}
-              review={feedback.review}
-              designation={feedback.designation}
-            />
-          </div>
-        ))}
+      <div className="flex hover:animate-none">
+        <div className="animate-slide mt-[31px] lg:mt-[83px] xl:mt-[62px] px-[10px] flex justify-center xl:justify-normal items-center overflow-hidden xl:px-[52px] gap-[45.26px] lg:gap-[100.16px]">
+          {feedbacks.map((feedback, index) => (
+            <div key={index}>
+              <FeedbackCard
+                name={feedback.name}
+                review={feedback.review}
+                designation={feedback.designation}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="animate-slide mt-[31px] lg:mt-[83px] xl:mt-[62px] px-[10px] flex justify-center xl:justify-normal items-center overflow-hidden xl:overflow-x-scroll 2xl:overflow-hidden xl:px-[52px] gap-[45.26px] lg:gap-[100.16px]">
+          {feedbacks.map((feedback, index) => (
+            <div key={index}>
+              <FeedbackCard
+                name={feedback.name}
+                review={feedback.review}
+                designation={feedback.designation}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="animate-slide mt-[31px] lg:mt-[83px] xl:mt-[62px] px-[10px] flex justify-center xl:justify-normal items-center overflow-hidden xl:overflow-x-scroll 2xl:overflow-hidden xl:px-[52px] gap-[45.26px] lg:gap-[100.16px]">
+          {feedbacks.map((feedback, index) => (
+            <div key={index}>
+              <FeedbackCard
+                name={feedback.name}
+                review={feedback.review}
+                designation={feedback.designation}
+              />
+            </div>
+          ))}
+        </div>
+        <div className="animate-slide mt-[31px] lg:mt-[83px] xl:mt-[62px] px-[10px] flex justify-center xl:justify-normal items-center overflow-hidden xl:overflow-x-scroll 2xl:overflow-hidden xl:px-[52px] gap-[45.26px] lg:gap-[100.16px]">
+          {feedbacks.map((feedback, index) => (
+            <div key={index}>
+              <FeedbackCard
+                name={feedback.name}
+                review={feedback.review}
+                designation={feedback.designation}
+              />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
