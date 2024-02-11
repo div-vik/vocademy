@@ -1,5 +1,8 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
 import Button from "../ui/Button";
+import Link from "next/link";
 
 const Careers = () => {
   return (
@@ -79,12 +82,12 @@ const Careers = () => {
         </div>
       </div>
 
-      <div>
+      <Link href="/register">
         <Button
           title="join now"
           className="mt-[43px] lg:mt-[109px] xl:mt-[79px] text-[15.77px] lg:text-[24px] xl:text-[32px]"
         />
-      </div>
+      </Link>
     </div>
   );
 };
