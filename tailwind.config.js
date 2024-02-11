@@ -20,6 +20,15 @@ module.exports = {
         primaryBlue: "#75FCFF",
         secondaryBlue: "#99F9FF",
       },
+      keyframes: {
+        slide: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(-100%)" },
+        },
+      },
+      animation: {
+        slide: "slide 13s infinite linear",
+      },
     },
   },
   plugins: [],
