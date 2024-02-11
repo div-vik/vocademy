@@ -1,7 +1,25 @@
-import React from "react";
+"use client";
+
+import React, { useState } from "react";
+import Image from "next/image";
 import AuthBtn from "../ui/AuthBtn";
+import { courses } from "../constant/data";
 
 const Register = () => {
+  const [value, setValue] = useState("Select your course");
+  const [gender, setGender] = useState("gender");
+  const [open, setOpen] = useState(false);
+  const [openGender, setOpenGender] = useState(false);
+
+  const handleSelect = (name) => {
+    setValue(name);
+    setOpen(false);
+  };
+
+  const handleGenderSelect = (name) => {
+    setGender(name);
+    setOpenGender(false);
+  };
   return (
     <div className="flex flex-col justify-center items-center mt-[83px] mb-[50px] lg:mb-[75px] xl:mb-[109px] lg:mt-[151.57px] xl:mt-[66.57px] px-[25px] lg:px-[100px] xl:px-[162px] 2xl:px-[283px]">
       <div className="text-center font-bold text-[20px] lg:text-[64px] xl:text-[55px]">
@@ -15,7 +33,7 @@ const Register = () => {
             </label>
             <input
               type="text"
-              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink"
+              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-[14.68px] lg:px-[12px] focus:outline-none border-primaryPink"
             />
           </div>
 
@@ -25,7 +43,7 @@ const Register = () => {
             </label>
             <input
               type="phone"
-              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink"
+              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-[14.68px] lg:px-[12px] focus:outline-none border-primaryPink"
             />
           </div>
 
@@ -35,7 +53,7 @@ const Register = () => {
             </label>
             <input
               type="email"
-              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink"
+              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-[14.68px] lg:px-[12px] focus:outline-none border-primaryPink"
             />
           </div>
 
@@ -45,8 +63,10 @@ const Register = () => {
                 Age
               </label>
               <input
+                min={1}
+                max={100}
                 type="number"
-                className="w-[54.08px] h-[31.401px] lg:w-[62px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink"
+                className="w-[54.08px] h-[31.401px] lg:w-[62px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-[14.68px] lg:px-[12px] focus:outline-none border-primaryPink"
               />
             </div>
 
@@ -54,10 +74,50 @@ const Register = () => {
               <label className="text-[13.956px] lg:text-[16px] font-medium leading-[14.793px] lg-leading-[16.96px]">
                 Gender
               </label>
-              <input
-                type="text"
-                className="w-[86.353px] h-[31.401px] lg:w-[99px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink"
-              />
+
+              <div className="w-[86.353px] h-[31.401px] lg:w-[99px] lg:h-[36px]">
+                <div
+                  onClick={() => {
+                    setOpenGender(!openGender);
+                    setOpen(false);
+                  }}
+                  className="flex justify-between items-center cursor-pointer px-[14.68px] lg:px-[12px] py-[3px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] border-primaryPink"
+                >
+                  <p className="">{gender}</p>
+                  <div className="w-[12.212px] h-[6.106px] lg:w-[14px] lg:h-[7px]">
+                    <Image
+                      className="object-contain w-[12.212px] h-[6.106px] lg:w-[14px] lg:h-[7px]"
+                      src="/dropDownArrow.svg"
+                      alt="dropDwonArrow"
+                      width={12.212}
+                      height={6.106}
+                    />
+                  </div>
+                </div>
+
+                {openGender && (
+                  <ul className="mt-[10px] w-[86.353px] h-[115px] lg:w-[99px] lg:h-[115px] border-[2.62px] lg:border-[3px] border-primaryPink flex flex-col gap-2 relative bg-white">
+                    <li
+                      onClick={() => handleGenderSelect("Male")}
+                      className="hover:bg-gray-200 px-[14.68px] lg:px-[12px] py-[3px] cursor-pointer"
+                    >
+                      Male
+                    </li>
+                    <li
+                      onClick={() => handleGenderSelect("Female")}
+                      className="hover:bg-gray-200 px-[14.68px] lg:px-[12px] py-[3px] cursor-pointer"
+                    >
+                      Female
+                    </li>
+                    <li
+                      onClick={() => handleGenderSelect("Others")}
+                      className="hover:bg-gray-200 px-[14.68px] lg:px-[12px] py-[3px] cursor-pointer"
+                    >
+                      Others
+                    </li>
+                  </ul>
+                )}
+              </div>
             </div>
           </div>
 
@@ -67,7 +127,7 @@ const Register = () => {
             </label>
             <input
               type="text"
-              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink"
+              className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-[14.68px] lg:px-[12px] focus:outline-none border-primaryPink"
             />
           </div>
 
@@ -75,14 +135,44 @@ const Register = () => {
             <label className="text-[13.956px] lg:text-[16px] font-medium leading-[14.793px] lg-leading-[16.96px]">
               Course you want to opt for
             </label>
-            <select className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink">
-              <option>Frontend Developer</option>
-              <option>Software Developer</option>
-              <option>Backend Developer</option>
-            </select>
+
+            <div className="w-[273.887px] h-[31.401px] lg:w-[314px] lg:h-[36px]">
+              <div
+                onClick={() => {
+                  setOpenGender(false);
+                  setOpen(!open);
+                }}
+                className="flex justify-between items-center cursor-pointer px-[14.68px] lg:px-[12px] py-[3px] rounded-[12.2px] lg:rounded-[14px] border-[2.62px] lg:border-[3px] border-primaryPink"
+              >
+                <p className="capitalize">{value}</p>
+                <div className="w-[12.212px] h-[6.106px] lg:w-[14px] lg:h-[7px]">
+                  <Image
+                    className="object-contain w-[12.212px] h-[6.106px] lg:w-[14px] lg:h-[7px]"
+                    src="/dropDownArrow.svg"
+                    alt="dropDwonArrow"
+                    width={12.212}
+                    height={6.106}
+                  />
+                </div>
+              </div>
+
+              {open && (
+                <ul className="mt-[10px] w-[273.887px] h-[273.887px] lg:w-[314px] lg:h-[314px] border-[2.62px] lg:border-[3px] border-primaryPink flex flex-col gap-2 relative bg-white overflow-y-scroll">
+                  {courses.map((course) => (
+                    <li
+                      onClick={() => handleSelect(course.name)}
+                      className="hover:bg-gray-200 px-[14.68px] lg:px-[12px] py-[3px] cursor-pointer"
+                      key={course.id}
+                    >
+                      {course.name}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
           </div>
 
-          <div className="flex flex-col lg:flex-row justify-center lg:items-center gap-[15px] lg:gap-[22px]">
+          <div className="hidden flex-col lg:flex-row justify-center lg:items-center gap-[15px] lg:gap-[22px]">
             <label className="text-[13.956px] lg:text-[16px] font-medium leading-[14.793px] lg-leading-[16.96px]">
               DOB
             </label>
@@ -94,7 +184,7 @@ const Register = () => {
               How did you get to know
               <br className="hidden lg:block" /> about Vocademy?
             </label>
-            <textarea className="w-[273.887px] h-[84.608px] lg:w-[314px] lg:h-[97px] rounded-[12.2px] border-[2.62px] lg:border-[3px] px-3 focus:outline-none border-primaryPink" />
+            <textarea className="w-[273.887px] h-[84.608px] lg:w-[314px] lg:h-[97px] rounded-[12.2px] border-[2.62px] lg:border-[3px] px-[14.68px] lg:px-[12px] focus:outline-none border-primaryPink" />
           </div>
         </div>
 
