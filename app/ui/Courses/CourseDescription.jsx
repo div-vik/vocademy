@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../Button";
+import Link from "next/link";
 
 const CourseDescription = ({ course }) => {
   const { group, oneToOne } = course.fees;
@@ -38,10 +39,10 @@ const CourseDescription = ({ course }) => {
       {/* Sessions */}
       <div className="grid grid-cols-2 mt-[13.92px] lg:mt-[15.4px] xl:mt-[21px] text-[7.537px] lg:text-[16.994px] xl:text-[24px] gap-x-[38.31px] gap-y-[22.73px] lg:gap-x-[86.39px] lg:gap-y-[43.22px] xl:gap-x-[122px] xl:gap-y-[55px]">
         {/* Session of Courses */}
-        {course.sessions.map((session) => (
+        {course.sessions.map((session, index) => (
           <div
             className=" w-[171.771px] lg:w-[387.319px] xl:w-[547px]"
-            key={course.name}
+            key={index}
           >
             <p className="font-bold text-primaryPink">
               Session 1: {session.name}
@@ -59,8 +60,8 @@ const CourseDescription = ({ course }) => {
               Additional Learning
             </p>
           )}
-          {course.additionalLearning?.map((learning) => (
-            <div key={course.name}>
+          {course.additionalLearning?.map((learning, index) => (
+            <div key={index}>
               <p className="font-medium">{learning}</p>
             </div>
           ))}
@@ -76,12 +77,15 @@ const CourseDescription = ({ course }) => {
       </div>
 
       {/* Enroll Button */}
-      <div className="lg:mt-[24.08px] xl:mt-[34px] flex flex-col justify-center items-center">
+      <Link
+        href={`/register/${course.name.toLowerCase()}`}
+        className="lg:mt-[24.08px] xl:mt-[34px] flex flex-col justify-center items-center"
+      >
         <Button
           className="text-[15.77px] lg:text-[24px] xl:text-[27px]"
           title="enroll now"
         />
-      </div>
+      </Link>
     </div>
   );
 };
