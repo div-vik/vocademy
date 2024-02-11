@@ -1,19 +1,18 @@
-import Image from "next/image";
-import React from "react";
+"use client";
 
-const CourseCard = ({ course }) => {
+import React from "react";
+import { MdArrowDownward } from "react-icons/md";
+
+const CourseCard = ({ course, handleOpen, isOpen }) => {
   return (
     <div className="w-[127.933px] h-[158.917px] lg:w-[215px] lg:h-[267.594px] xl:w-[154.105px] xl:h-[191.427px] rounded-[24.1px] lg:rounded-[40.5px] xl:rounded-[29px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] px-[8.66px] lg:px-[15.15px] xl:px-[10.84px] shadow-[0_3.321px_3.321px_0px_rgba(0,0,0,0.25)] lg:shadow-[0_5.592px_5.592px_0px_rgba(0,0,0,0.25)] xl:shadow-[0_4px_4px_0px_rgba(0,0,0,0.25)] relative flex flex-col justify-center items-center border-primaryPink">
       {/* Arrow */}
       <div className="absolute top-[8px] lg:top-[13.46px] xl:top-[9.63px] px-[8.66px] lg:px-[15.15px] xl:px-[10.84px] w-full flex justify-end items-start">
-        <div className="w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] flex justify-center items-center border-primaryPink rounded-full">
-          <Image
-            className="w-[9.995px] h-[9.995px] lg:w-[16.83px] lg:h-[16.83px] xl:w-[12.039px] xl:h-[12.039px]"
-            src="/rightUpArrow.svg"
-            alt="arrow"
-            width={9.995}
-            height={9.995}
-          />
+        <div
+          onClick={() => handleOpen(!isOpen)}
+          className="w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] hover:bg-black hover:border-black hover:text-white ease-in-out duration-500 cursor-pointer flex justify-center items-center border-primaryPink rounded-full"
+        >
+          <MdArrowDownward className="w-[20px] h-[20px] lg:w-[32px] lg:h-[32px] xl:w-[22px] xl:h-[22px] rotate-[225deg]" />
         </div>
       </div>
 
