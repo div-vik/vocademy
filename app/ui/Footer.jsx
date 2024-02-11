@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="w-full flex justify-between xl:justify-end 2xl:justify-center items-start text-[10px] lg:text-[23.814px] xl:text-[10px] font-bold xl:gap-[128px]">
         <div className="flex flex-col gap-[22px]">
           <Link href="/">home</Link>
-          <Link href="#">services</Link>
+          <Link href="/courses">services</Link>
           <Link href="#">contact us</Link>
         </div>
         <div className="hidden flex-col gap-[10px]">
@@ -19,13 +19,13 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-[10px]">
           <Link href="#">FAQs</Link>
-          <Link href="#">Career advice</Link>
+          <Link href="/careers">Career advice</Link>
         </div>
         <div className="flex flex-col gap-[10px]">
-          <Link href="#">T&Cs</Link>
+          <Link href="/privacy-policy">T&Cs</Link>
           <Link href="/privacy-policy">Privacy policy</Link>
-          <Link href="#">Refund policy</Link>
-          <Link href="#">Cookie policy</Link>
+          <Link href="/privacy-policy">Refund policy</Link>
+          <Link href="/privacy-policy">Cookie policy</Link>
         </div>
       </div>
 
