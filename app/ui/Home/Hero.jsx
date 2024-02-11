@@ -26,8 +26,8 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="hidden xl:flex justify-center px-10 items-center w-screen gap-[60px] -mt-[75px] z-10 relative">
-        <div className="lg:w-[113.542px] xl:w-[116.4px] lg:h-[279.328px] xl:h-[286.342px]">
+      <div className="hidden xl:flex justify-center px-10 items-center w-screen gap-[60px] xl:gap-0 -mt-[75px] z-10 relative">
+        <div className="lg:w-[113.542px] xl:w-[116.4px] lg:h-[279.328px] xl:h-[286.342px] xl:mr-[60px]">
           <Image
             className="object-contain lg:w-[113.542px] xl:w-[116.4px] lg:h-[279.328px] xl:h-[286.342px]"
             src="/boy1.svg"
@@ -107,7 +107,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <button className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] hover:text-[#fff] ease-in-out duration-100 font-bold text-[15.758px] lg:text-[20px] p-[4px] lg:p-[6px] rounded-[66px] xl:-mt-[80px] z-20">
+      <button className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% hover:bg-gradient-to-r hover:from-[#000] hover:to-[#000] ease-in-out duration-100 font-bold text-[15.758px] lg:text-[20px] p-[4px] lg:p-[6px] rounded-[66px] xl:-mt-[80px] z-20">
         <Link
           href="/courses"
           className="flex w-full lowercase text-center rounded-[66px] bg-[#fff] hover:bg-[#000] hover:text-[#fff] px-[22.85px] lg:px-[29px] py-[10.55px] lg:py-[11px] ease-in-out duration-500"

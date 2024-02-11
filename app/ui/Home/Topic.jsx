@@ -14,9 +14,14 @@ const Topic = () => {
       </div>
 
       <div className="overflow-x-scroll px-5">
-        <div className="flex w-fit mt-[36px] lg:mt-[61px] xl:mt-[48px] gap-[30.21px] lg:gap-[55px] xl:gap-[55px] py-2">
+        <div className="flex w-fit mt-[36px] lg:mt-[61px] xl:mt-[48px] gap-[30.21px] lg:gap-[55px] xl:gap-[55px] py-4">
           {topics?.map((topic, index) => (
-            <TopicCard key={index} title={topic.title} icon={topic.icon} />
+            <TopicCard
+              href="/courses"
+              key={index}
+              title={topic.title}
+              icon={topic.icon}
+            />
           ))}
         </div>
       </div>
