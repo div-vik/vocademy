@@ -262,8 +262,90 @@ export const faqs = [
   },
 ];
 
+export const coursesListFirst = [
+  {
+    name: "Spellings",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Phonics",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Academic Foundation Courses",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Communication Skills",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Tailoring",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Yoga",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Public Speaking",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Basic Computer Skills",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+];
+
+export const coursesListSecond = [
+  {
+    name: "Life Skills",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Personality Development",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Cooking Lesson",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Coding",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Financial Literacy",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Career Counselling",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+  {
+    name: "Creative Writing",
+    description:
+      "It's time to embark on a journey that transforms your child’s spellings. This course will help to improve your child’s ability to understand word pronunciation and  communicate effectively. The course has been comprehensively designed by the expert trainer  to meet different levels starting from the foundation. Interactive live training coupled with personalized learning paths is what makes this course so interesting.",
+  },
+];
+
 export const courses = [
   {
+    id: 1,
     name: "Spellings",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -315,6 +397,7 @@ export const courses = [
     ],
   },
   {
+    id: 2,
     name: "Phonics",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -366,6 +449,7 @@ export const courses = [
     ],
   },
   {
+    id: 3,
     name: "Academic Foundation Courses",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -411,6 +495,7 @@ export const courses = [
     ],
   },
   {
+    id: 4,
     name: "Communication Skills",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -456,6 +541,7 @@ export const courses = [
     ],
   },
   {
+    id: 5,
     name: "Tailoring",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -501,6 +587,7 @@ export const courses = [
     ],
   },
   {
+    id: 6,
     name: "Yoga",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -546,6 +633,7 @@ export const courses = [
     ],
   },
   {
+    id: 7,
     name: "Public Speaking",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -591,6 +679,7 @@ export const courses = [
     ],
   },
   {
+    id: 8,
     name: "Basic Computer Skills",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -636,6 +725,7 @@ export const courses = [
     ],
   },
   {
+    id: 9,
     name: "Life Skills",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -681,6 +771,7 @@ export const courses = [
     ],
   },
   {
+    id: 10,
     name: "Personality Development",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -726,6 +817,7 @@ export const courses = [
     ],
   },
   {
+    id: 11,
     name: "Cooking Lessons",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -771,6 +863,7 @@ export const courses = [
     ],
   },
   {
+    id: 12,
     name: "Coding",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -816,6 +909,7 @@ export const courses = [
     ],
   },
   {
+    id: 13,
     name: "Financial Literacy",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -861,6 +955,7 @@ export const courses = [
     ],
   },
   {
+    id: 14,
     name: "Career Counselling",
     totalSessions: 5,
     sessionDuration: "1 hour",
@@ -906,6 +1001,7 @@ export const courses = [
     ],
   },
   {
+    id: 15,
     name: "Creative Writing",
     totalSessions: 5,
     sessionDuration: "1 hour",
