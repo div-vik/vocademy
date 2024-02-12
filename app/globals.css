@@ -35,3 +35,30 @@
   transform: scale(1);
   background-color: green;
 }
+
+/* Hide Scrollbar */
+.hideScrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.hideScrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Customize Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f91992;
+  border-radius: 5px;
+}
