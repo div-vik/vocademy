@@ -1,11 +1,14 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import { MdArrowDownward } from "react-icons/md";
 
 const CourseCard = ({ course, handleOpen, isOpen, handleCourseName }) => {
+  const [isHover, setIsHover] = useState(false);
   return (
     <div
+      onMouseEnter={() => setIsHover(true)}
+      onMouseLeave={() => setIsHover(false)}
       onClick={() => {
         handleOpen(!isOpen);
         handleCourseName(course.name);
@@ -14,7 +17,13 @@ const CourseCard = ({ course, handleOpen, isOpen, handleCourseName }) => {
     >
       {/* Arrow */}
       <div className="absolute top-[8px] lg:top-[13.46px] xl:top-[9.63px] px-[8.66px] lg:px-[15.15px] xl:px-[10.84px] w-full flex justify-end items-start">
-        <div className="w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] hover:bg-black hover:border-black hover:text-white ease-in-out duration-500 cursor-pointer flex justify-center items-center border-primaryPink rounded-full">
+        <div
+          className={
+            isHover === true
+              ? "w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] hover:bg-black hover:border-black hover:text-white bg-black text-white ease-in-out duration-500 cursor-pointer flex justify-center items-center border-primaryPink rounded-full"
+              : "w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] hover:bg-black hover:border-black hover:text-white ease-in-out duration-500 cursor-pointer flex justify-center items-center border-primaryPink rounded-full"
+          }
+        >
           <MdArrowDownward className="w-[20px] h-[20px] lg:w-[32px] lg:h-[32px] xl:w-[22px] xl:h-[22px] rotate-[225deg]" />
         </div>
       </div>
