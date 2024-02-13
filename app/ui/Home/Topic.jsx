@@ -32,7 +32,7 @@ const Topic = () => {
       </div>
 
       <div className="overflow-hidden px-2 lg:px-6 relative">
-        <div className="hidden absolute top-1/2 xl:right-2 text-3xl lg:text-5xl flex justify-between items-center w-full">
+        <div className="hidden absolute top-1/2 xl:right-2 text-3xl lg:text-5xl justify-between items-center w-full">
           <div
             onClick={handlePrev}
             className="absolute top-1 lg:top-2 -left-1 lg:-left-2 xl:left-5 z-10 flex justify-center items-center cursor-pointer"
