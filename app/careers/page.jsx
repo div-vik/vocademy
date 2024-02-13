@@ -1,13 +1,87 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useEffect } from "react";
 import Button from "../ui/Button";
 import Link from "next/link";
+import Image from "next/image";
+import styles from "./animaion.module.css";
 
 const Careers = () => {
+  useEffect(() => {
+    // Start animation when the component is mounted
+    const elements = document.getElementsByClassName(styles.animatedDiv);
+
+    const startAnimation = () => {
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.add(styles.animate);
+      }
+    };
+
+    startAnimation();
+
+    // Stop animation after a few seconds (adjust the duration accordingly)
+    const timeout = setTimeout(() => {
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.remove(styles.animate);
+      }
+    }, 20000);
+
+    return () => clearTimeout(timeout); // Cleanup on component unmount
+  }, []);
+
   return (
     <div className="mt-[84.57px] lg:mt-[185.57px] xl:mt-[161.57px] mb-[34.96px] lg:mb-[109px] xl:mb-[47px] flex flex-col justify-center items-center">
-      <div className="leading-tight flex flex-col justify-center items-center gap-[39px] lg:gap-[68px] xl:gap-[40px]">
+      <div className="leading-tight flex flex-col justify-center items-center gap-[39px] lg:gap-[68px] xl:gap-[40px] relative">
+        <div className="absolute -top-[44px] right-[87px] lg:right-[375.68px] lg:-top-[70px] xl:left-[469px] xl:-top-[87px]">
+          <Image
+            className={`animate-none animatedDiv w-[94.001px] h-[44.365px] lg:w-[126.462px] lg:h-[59.686px] xl:w-[211.096px] xl:h-[99.63px] ${styles.animatedDiv}`}
+            src="/cloud3.svg"
+            alt="cloud"
+            width={94}
+            height={44.365}
+          />
+        </div>
+
+        <div className="absolute lg:left-[97px] lg:-top-[50px] -left-[11px] top-[76px] xl:-left-[47px] xl:-top-[70px]">
+          <Image
+            className={`animate-none animatedDiv lg:w-[98.654px] lg:h-[36.546px] w-[56px] h-[21.622px] xl:w-[158px] xl:h-[61.005px] ${styles.animatedDiv}`}
+            src="/cloud1.svg"
+            alt="cloud"
+            width={94}
+            height={44.365}
+          />
+        </div>
+
+        <div className="absolute lg:-top-[60px] lg:right-[69.67px] -right-[22.39px] top-[82px] xl:right-[99.78px] xl:-top-[74px]">
+          <Image
+            className={`animate-none animatedDiv w-[69.395px] h-[31px] lg:w-[131.328px] lg:h-[58.666px] xl:w-[219.218px] xl:h-[97.928px] ${styles.animatedDiv}`}
+            src="/cloud5.svg"
+            alt="cloud"
+            width={94}
+            height={44.365}
+          />
+        </div>
+
+        <div className="absolute top-[133px] -left-[24px] lg:-left-[28px] lg:top-[214px] xl:-left-[115px] xl:top-[195px]">
+          <Image
+            className={`animate-none animatedDiv w-[47px] h-[22.275px] lg:w-[207.4px] lg:h-[80.078px] xl:w-[346.202px] xl:h-[133.671px] ${styles.animatedDiv}`}
+            src="/cloud3.svg"
+            alt="cloud"
+            width={94}
+            height={44.365}
+          />
+        </div>
+
+        <div className="hidden lg:flex absolute -bottom-[29.92px] right-[27.73px] lg:-right-[19.94px] lg:top-[222px] xl:-right-[136px] xl:top-[202px]">
+          <Image
+            className={`animate-none animatedDiv w-[88.274px] h-[33.918px] lg:w-[165.943px] lg:h-[63.761px] xl:w-[277px] xl:h-[106.433px] ${styles.animatedDiv}`}
+            src="/cloud4.svg"
+            alt="cloud"
+            width={94}
+            height={44.365}
+          />
+        </div>
+
         <p className="w-[362px] lg:w-[905px] xl:w-[1151px] text-[34.12px] lg:text-[55.85px] xl:text-[64px] font-bold text-center">
           We are always ready to partner up with ambitious and{" "}
           <span className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-transparent bg-clip-text">
@@ -82,7 +156,7 @@ const Careers = () => {
         </div>
       </div>
 
-      <Link href="/register">
+      <Link href="https://wa.me/9108255341?text=Hello%20I%20have%20few%20questions%20regarding%20online%20ordering.%20Are%20you%20free%20to%20chat%20now%3F">
         <Button
           title="join now"
           className="mt-[43px] lg:mt-[109px] xl:mt-[79px] text-[15.77px] lg:text-[24px] xl:text-[32px]"

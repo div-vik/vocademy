@@ -1,21 +1,87 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
+import styles from "./animaion.module.css";
 
 const Hero = () => {
+  useEffect(() => {
+    // Start animation when the component is mounted
+    const elements = document.getElementsByClassName(styles.animatedDiv);
+
+    const startAnimation = () => {
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.add(styles.animate);
+      }
+    };
+
+    startAnimation();
+
+    // Stop animation after a few seconds (adjust the duration accordingly)
+    const timeout = setTimeout(() => {
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.remove(styles.animate);
+      }
+    }, 20000);
+
+    return () => clearTimeout(timeout); // Cleanup on component unmount
+  }, []);
+
   return (
     <div className="mt-[65px] lg:mt-[85px] xl:mt-[20px] flex flex-col justify-center items-center lg:px-[82px] xl:px-[123px] 2xl:px-[140px]">
-      <div className="flex flex-col justify-center px-20 w-screen items-center relative">
-        <div className="hidden xl:flex w-screen h-[438.633px]">
-          <Image
-            className="object-contain w-screen"
-            src="/homeBg.png"
-            alt="background"
-            width={1400}
-            height={438.633}
-          />
-        </div>
-        <div className="xl:absolute xl:top-20 w-[424px] lg:w-[852px] xl:w-[1193px] flex justify-center items-center">
+      <div className="flex flex-col justify-center px-20 w-screen items-center">
+        <div className="xl:mt-20 w-[424px] lg:w-[852px] xl:w-[1193px] flex flex-col justify-center items-center relative">
+          <div className="absolute -top-6 right-[100px] lg:right-[227.13px] xl:right-[40%] xl:-top-20">
+            <Image
+              className={`animate-none animatedDiv w-[94px] h-[44.365px] lg:w-[88.274px] lg:h-[33.918px] xl:w-[211.096px] xl:h-[99.63px] ${styles.animatedDiv}`}
+              src="/cloud3.svg"
+              alt="cloud"
+              width={94}
+              height={44.365}
+            />
+          </div>
+
+          <div className="absolute lg:top-[150px] lg:left-[30px] left-[18px] top-[72px] xl:-left-[101px] xl:top-[108px]">
+            <Image
+              className={`animate-none animatedDiv lg:w-[94.001px] lg:h-[44.365px] w-[56px] h-[21.622px] xl:w-[168.347px] xl:h-[65px] ${styles.animatedDiv}`}
+              src="/cloud1.svg"
+              alt="cloud"
+              width={94}
+              height={44.365}
+            />
+          </div>
+
+          <div className="absolute lg:top-[158px] lg:right-[24.61px] right-[8.61px] top-[71px] xl:-right-[106px] xl:top-[98px]">
+            <Image
+              className={`animate-none animatedDiv w-[69.395px] h-[31px] xl:w-[211.096px] xl:h-[99.63px] ${styles.animatedDiv}`}
+              src="/cloud5.svg"
+              alt="cloud"
+              width={94}
+              height={44.365}
+            />
+          </div>
+
+          <div className="absolute bottom-[19.72px] left-[29px] lg:left-[80px] lg:bottom-[43.73px] xl:-left-[3px] xl:bottom-[9.63px]">
+            <Image
+              className={`animate-none animatedDiv w-[47px] h-[22.275px] xl:w-[211.096px] xl:h-[99.63px] ${styles.animatedDiv}`}
+              src="/cloud3.svg"
+              alt="cloud"
+              width={94}
+              height={44.365}
+            />
+          </div>
+
+          <div className="absolute -bottom-[29.92px] right-[27.73px] lg:right-[51px] lg:bottom-[0.38px] xl:-right-[96.2px] xl:-bottom-[17.63px]">
+            <Image
+              className={`animate-none animatedDiv w-[88.274px] h-[33.918px] lg:w-[56px] lg:h-[21.622px] xl:w-[358.202px] xl:h-[137.633px] ${styles.animatedDiv}`}
+              src="/cloud4.svg"
+              alt="cloud"
+              width={94}
+              height={44.365}
+            />
+          </div>
+
           <p className="text-center text-[#000] text-[47.198px] lg:text-[94.841px] xl:text-[96px] font-bold leading-tight">
             Unleash your true{" "}
             <span className="bg-gradient-to-r from-secondaryPink from-20% to-secondaryBlue to-60% text-transparent bg-clip-text">
@@ -39,7 +105,7 @@ const Hero = () => {
 
         <div className="xl:flex justify-between items-center w-[325px] lg:w-[723px] xl:w-[847px] -mt-[20px]">
           <p className="text-center text-[12.248px] lg:text-[24px] xl:text-[24px] font-[500] tracking-[0.612px] lg:tracking-[1.2px] leading-[14.8px] lg:leading-[27px]">
-            Vocademy helps you with their expert-guided team to fuel your
+            Vocademyy helps you with their expert-guided team to fuel your
             creativity and ace your vocational skills through live sessions that
             you need for your dream professional and personal life. For Anyone.
             Anywhere. Fastrack your progress right away

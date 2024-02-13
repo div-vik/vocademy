@@ -1,16 +1,90 @@
-import React from "react";
+"use client";
+
+import React, { useEffect } from "react";
 import Button from "../ui/Button";
+import styles from "./animaion.module.css";
+import Image from "next/image";
 
 const AboutUs = () => {
+  useEffect(() => {
+    // Start animation when the component is mounted
+    const elements = document.getElementsByClassName(styles.animatedDiv);
+
+    const startAnimation = () => {
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.add(styles.animate);
+      }
+    };
+
+    startAnimation();
+
+    // Stop animation after a few seconds (adjust the duration accordingly)
+    const timeout = setTimeout(() => {
+      for (let i = 0; i < elements.length; i++) {
+        elements[i].classList.remove(styles.animate);
+      }
+    }, 20000);
+
+    return () => clearTimeout(timeout); // Cleanup on component unmount
+  }, []);
+
   return (
     <div className="mt-[97.57px] lg:mt-[154.47px] xl:mt-[114.57px] mb-[117px] lg:mb-[60.66px] xl:mb-[59px] flex flex-col justify-center items-center">
       {/* Hero */}
       <div className="flex flex-col justify-center items-center">
         {/* BG and Text */}
         <div className="flex flex-col justify-center items-center">
-          <div></div>
+          <div className="w-[378px] lg:w-[755px] xl:w-[1298px] relative">
+            <div className="absolute -top-[44px] right-[134px] lg:left-[290px] lg:-top-[70.53px] xl:left-[501px] xl:-top-[95px]">
+              <Image
+                className={`animate-none animatedDiv w-[94.001px] h-[44.365px] lg:w-[145.031px] lg:h-[59.358px] xl:w-[211.096px] xl:h-[99.63px] ${styles.animatedDiv}`}
+                src="/cloud3.svg"
+                alt="cloud"
+                width={94}
+                height={44.365}
+              />
+            </div>
 
-          <div className="w-[378px] lg:w-[755px] xl:w-[1298px]">
+            <div className="absolute lg:-left-[98px] lg:-top-[29.78px] right-[5px] -top-[6.38px] xl:-left-[41px] xl:top-[25px]">
+              <Image
+                className={`animate-none animatedDiv lg:w-[128.117px] lg:h-[42.896px] w-[56px] h-[21.622px] xl:w-[186.477px] xl:h-[72px] ${styles.animatedDiv}`}
+                src="/cloud1.svg"
+                alt="cloud"
+                width={94}
+                height={44.365}
+              />
+            </div>
+
+            <div className="absolute lg:-top-[5.25px] lg:-right-[109.61px] -right-[19.77px] bottom-[25px] xl:-right-[2.22px] xl:-top-[49px]">
+              <Image
+                className={`animate-none animatedDiv w-[44.77px] h-[20px] lg:w-[150.611px] lg:h-[58.344px] xl:w-[219.218px] xl:h-[97.928px] ${styles.animatedDiv}`}
+                src="/cloud5.svg"
+                alt="cloud"
+                width={94}
+                height={44.365}
+              />
+            </div>
+
+            <div className="absolute -bottom-[6.27px] -left-[21px] lg:-left-[64px] lg:bottom-[52.58px] xl:left-[78px] xl:bottom-[12.76px]">
+              <Image
+                className={`animate-none animatedDiv w-[47px] h-[22.275px] lg:w-[106.491px] lg:h-[41.253px] xl:w-[155px] xl:h-[69.241px] ${styles.animatedDiv}`}
+                src="/cloud3.svg"
+                alt="cloud"
+                width={94}
+                height={44.365}
+              />
+            </div>
+
+            <div className="hidden lg:flex absolute -bottom-[29.92px] right-[27.73px] lg:-right-[129px] lg:bottom-[68.34px] xl:-right-[39px] xl:-bottom-[22.58px]">
+              <Image
+                className={`animate-none animatedDiv w-[88.274px] h-[33.918px] lg:w-[152px] lg:h-[50.646px] xl:w-[293px] xl:h-[112.58px] ${styles.animatedDiv}`}
+                src="/cloud4.svg"
+                alt="cloud"
+                width={94}
+                height={44.365}
+              />
+            </div>
+
             <p className="text-center text-[26.868px] lg:text-[54.575px] xl:text-[75px] font-bold">
               We are here to change the way people think about Online vocational
               based{" "}
