@@ -70,11 +70,11 @@ const Courses = () => {
           </div>
         </div>
 
-        <div className="mt-[22.42px] lg:mt-[118.41px] xl:mt-[103.6px] gap-y-[27.64px] lg:gap-y-[62.31px] xl:gap-y-[88px] hidden flex-col justify-center items-center ">
+        {/* <div className="mt-[22.42px] lg:mt-[118.41px] xl:mt-[103.6px] gap-y-[27.64px] lg:gap-y-[62.31px] xl:gap-y-[88px] hidden flex-col justify-center items-center ">
           {courses.map((course, index) => (
             <CourseDescription key={index} course={course} />
           ))}
-        </div>
+        </div> */}
       </div>
 
       {isOpen && (
