@@ -86,14 +86,13 @@ export const feedbacks = [
   {
     name: "- Krish Parihar",
     review:
-      'I must admit that I was aggressive and reluctant to study. As someone who has Down syndrome, it was hard to read and write but after continuous coaching, my abilities improved with time. I gradually learned to do basic skills myself and even talk fluently. My parents are so happy now. I feel stable and focused."',
+      'I am so glad to be trained in life skills by Vocademy. I have learned to cope with adolescent issues and balance my academics simultaneously. I have seen so many changes."',
     designation: "Student",
   },
   {
     name: "- Krish Parihar",
     review:
-      'I must admit that I was aggressive and reluctant to study. As someone who has Down syndrome, it was hard to read and write but after continuous coaching, my abilities improved with time. I gradually learned to do basic skills myself and even talk fluently. My parents are so happy now. I feel stable and focused."',
-    designation: "Student",
+      'As a recruiter, work life can get hard and that&apos;s when you realize you need help. This is exactly where Vocademy stepped in. Their stress management course isn&apost just a course but an in-depth self reflection which helped me achieve a balance. The expert helped me throughout. I feel more at peace and productive at work and home."',
   },
 ];
 
@@ -214,7 +213,7 @@ export const faqs = [
     question: "How do I receive my certificate after completing my course?",
   },
   {
-    answer: "No, currently there is no refund policy at LearnVoc.",
+    answer: "No, currently there is no refund policy at Vocademyy.",
     question: "Is there a refund policy available?",
   },
   {
@@ -453,14 +452,14 @@ export const courses = [
     name: "Academic Foundation Courses",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
     ageGroup: "8-10 years old",
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
@@ -475,7 +474,7 @@ export const courses = [
       {
         name: "Learning English",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Foundation spellings and enhancing students’ vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
       },
       {
         name: "Introduction to Science",
@@ -499,550 +498,545 @@ export const courses = [
     name: "Communication Skills",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
-    additionalLearning: null,
+    additionalLearning:
+      "Elements of Public Speaking, Work on body language and gestures, Active listening techniques, Management of emotions",
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "This course is for individuals seeking to get rid of their anxiety and fear of communication and build authentic communication while holding persuasive conversations whether in personal or professional settings to set you apart from the crowd.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Verbal and Non-verbal listening",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "These are essential elements of effective communication. This session will enable you to express yourself effectively and fluently. It helps in conflict resolution, clear conversations, processing emotions, understanding and building healthy relationships.",
       },
       {
-        name: "Learning English",
+        name: "Working on communication styles",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "We will take you through to develop better interpersonal relations which will also help you adapt to diverse group settings. It advances you in your careers, negotiations and self-awareness. A key session to your personality development.",
       },
       {
-        name: "Introduction to Science",
+        name: "Public Speaking",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "This session is your major confidence boosters. From resolving and breaking your apprehensions and self-barriers to levelling up your public speaking abilities so that you present yourself effectively and work on your persuasion skills.",
       },
       {
-        name: "Hindi Language",
+        name: "Communication in the workplace",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Focusing on communication styles especially at workspace is the key to determining career growth and opportunities. This session explores various areas that you will reflect and practice upon such as building relationships with clients and colleagues, setting work ethics for yourself, playing the role of an effective leader, instilling creativity and much more.",
       },
       {
-        name: "Kannada Language",
+        name: "Digital, ethical and emotional communication",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "These include various communication styles and etiquettes in various spheres. The importance of online etiquettes, formal meetings, adaptability to changing technology and pondering upon the foundations of self-reflection, building transparency and privacy. You will also learn various layers to empathetic styles of listening and speaking to help realign your emotions with the sensitivity needed with respect to the situation for a positive environment around you.",
       },
     ],
   },
   {
     id: 5,
-    name: "Tailoring",
+    name: "Tailoring Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "This course helps you unleash your creativity and find the tailoring expert in you combining cultural significance and modern trends in fabric and curation into perfect fits. It explores the fundamentals of tailoring on fabrics, patterns and garment alterations using various techniques and practical applications to master this skill.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Understanding Fabrics",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "This session introduces different types of fabric and helps identify them, studying the types and properties of various fabrics including their behaviour, fabric finishes and performance fabric based on their characteristics.",
       },
       {
-        name: "Learning English",
+        name: "Pattern Making",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "This session helps you to create and replicate patterns for garments which fit well. It introduces the fundamentals of pattern making, such as flat patterns and draping techniques. Modification of patterns and taking precise body measurements is a part of this session. Developing the understanding of pattern adaptation and alterations depending on the fabric for a cultural significance.",
       },
       {
-        name: "Introduction to Science",
+        name: "Garment Construction",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Teaching techniques to create patterns and create garments. Emphasis on sewing, sewing machine basics, stitching, hemming, linings and garment finishing.",
       },
       {
-        name: "Hindi Language",
-        description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
-      },
-      {
-        name: "Kannada Language",
-        description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+        name: "Garment Fitting",
+        description: "The focus",
       },
     ],
   },
   {
     id: 6,
-    name: "Yoga",
+    name: "Yoga Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "Dive into the power of manifestation and relaxation by practicing mindful yoga. This course will help you create a balance in life and redirect your focus, nurturing healthy habits and increasing productivity. It instills calmness and gratitude with the help of various breathing techniques and guided visualization.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Basic Yoga Poses (Asanas)",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "You will learn foundational yoga poses such as Mountain Pose (Tadasana), Downward facing dog (Adho Mukha Svanasana) and child’s pose (Balasana). Proper technique and to master perfect posture, breathing techniques for each pose including warm-up and movement of joints.",
       },
       {
-        name: "Learning English",
+        name: "Breathe Awareness (Pranayama)",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Mastering conscious breathing techniques to help establish a mind-body connection. Explore diaphragmatic breathing (deep belly breathing), positive mindset, focus of mind and mental well-being with the art of breathing.",
       },
       {
-        name: "Introduction to Science",
+        name: "Sun salutations (Surya Namaskara)",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Surya namaskara is a daily yoga practice to find a perfect mind, body and soul balance. The objective and philosophy behind surya namaskar to achieve an overall emotional well-being through the dynamic flow of Surya Namaskar.",
       },
       {
-        name: "Hindi Language",
+        name: "Meditation Techniques",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "This includes the basics of meditation helping with guided visualization for inner peace and harmony, mindfulness-based stress reduction and silent extended sessions to foster better sleep and reduce anxiety.",
       },
       {
-        name: "Kannada Language",
+        name: "Mindful exercises and relaxation techniques",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Emphasis has been given to Savasana (corpse pose) to release tension and explore awareness of physical sensations.",
       },
     ],
   },
   {
     id: 7,
-    name: "Public Speaking",
+    name: "Life Skills Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "Thrive in every sphere of life for a self-sufficient and successful life. This course helps you explore beyond traditional education and set actionable steps to create opportunities for yourself to advance your career and self-improvement and holistic well being. Learn to adapt in complex situations and pave your way through the ambiguities of life by building your roadmaps.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Self Awareness",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "It will help students understand their strengths and weaknesses, reflection on personal values and awareness of goals and interests. Identifying core beliefs, cultivating emotional stability. This session shall also discuss the relation of one’s personality with different relationships, attitude and lifestyle to channelize holistic development.",
       },
       {
-        name: "Learning English",
+        name: "Effective Communication",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "It helps you understand verbal and non-verbal communication skills. If you struggle with expressing your thoughts and feelings assertively then this session will be the right guidance. It will help you build, maintain and grow healthy relationships with yourself and with others. It helps you understand etiquettes such as active listening, respectful and inclusive communication styles to help you grow.",
       },
       {
-        name: "Introduction to Science",
+        name: "Decision Making",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "This will help those who struggle with making decisions in life. A complete guide to avoid all the errors and biases in order to make favorable decisions. You will be taken through an in-depth process of models behind decision-making, weighing pros and cons, exploring different styles and making strategic decisions by creating the required framework.",
       },
       {
-        name: "Hindi Language",
+        name: "Problem Solving",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Learn about the root cause of the problems and dissect them into manageable parts, application of various methods to find solutions to your problems, the interconnected components and familiarization with collaborative and effective techniques.",
       },
       {
-        name: "Kannada Language",
+        name: "Time and Stress Management",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Effective goal settings, for SMART results, assessing time, learning task prioritization, creating daily and weekly routines, organizational skills to learn time blocking and fostering focus in the present to reduce stress and helping in identifying stress and ways to mitigate it. These help build healthy boundaries and manage your overall energy.",
       },
     ],
   },
   {
     id: 8,
-    name: "Basic Computer Skills",
+    name: "Personality Development Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "This training course is a set of practical guides and insights to help you level up by assessing yourself through different strategies, developing a better self-image to redesign your goals and put them into effect in your daily life, and building your skills.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Self Awareness",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "This session teaches you about your strengths, weaknesses, interests, core beliefs, and values. Identifying your behaviors and emotional responses for emotional regularity and self-reflection to allow your personality to thrive.",
       },
       {
-        name: "Learning English",
+        name: "Positive Thinking",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Working on a mindset shift towards abundance and positivity, delving into the psychology of positivity and mindfulness. Resilience building and overcoming negative thoughts. Explore a step-by-step guide to allow a positive support system to cultivate around you and journal to foster gratitude and techniques to do so to make your life optimistic.",
       },
       {
-        name: "Introduction to Science",
+        name: "Self Confidence",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "We will overcome your self-doubts and thoughts holding you back. You will learn to identify your strengths and project the appropriate body language and presence, being authentic, assertive, and clear while also becoming ready to take constructive feedback which will help you with your growth mindset.",
       },
       {
-        name: "Hindi Language",
+        name: "Networking",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Building Professional networks and developing a proactive mindset towards it to attract the right opportunities, exploring online and offline networking opportunities, and creating the right pitches to increase the success rate.",
       },
       {
-        name: "Kannada Language",
+        name: "Leadership Skills",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Understanding leadership qualities and roles and learning coaching skills as a leader. Practicing relationship management and team engagement.",
       },
     ],
   },
   {
     id: 9,
-    name: "Life Skills",
+    name: "Cooking Lessons Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "This course is designed for aspiring chefs and passionate cooks to build a foundational path to their art of culinary with the cooking basics, use of different kitchen equipment, learning flavor balance and harmony, and perfect plating for a fine dining experience that will enhance your organizational skill and prepare delicious recipes.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Basic Cooking terms & Kitchen Safety",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "Introduction to cooking terminologies, skills to handle knives, Measuring techniques, basic cooking methods, and kitchen equipment, learning kitchen safety guidelines, emergency and safety procedures.",
       },
       {
-        name: "Learning English",
+        name: "Knife skills & Cooking techniques",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Understanding different styles of cutting and different types of knives, learning the anatomy of a knife, learning the proper technique of positioning and grasping knives, advanced ways to use knives, knife precautions, and maintenance skills with hands-on experience.",
       },
       {
-        name: "Introduction to Science",
+        name: "Understanding Ingredients",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Identifying fresh and quality ingredients, studying different herbs and spices and understanding flavors. Learn about special ingredients such as seasonal and regional ingredients. Making mindful ingredient choices.",
       },
       {
-        name: "Hindi Language",
+        name: "Measuring and Scaling",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Developing an understanding of measurement units with the help of different equipment, techniques for accurate measurements for dry and liquid ingredients making adjustments for the required percentage, learning about proportions, and achieving consistency in cooking with various techniques.",
       },
       {
-        name: "Kannada Language",
+        name: "Flavour Balancing, Presentation and Plating",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Identifying and understanding the balance of different flavors (sweet, salty, bitter, umami). Learning about different flavor combinations, achieving aesthetics in culinary, food presentation, food and plating balance, and portion size, and experimenting with the presentation.",
       },
     ],
   },
   {
     id: 10,
-    name: "Personality Development",
+    name: "Coding Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "Add a technical skill to your skill set by taking up this course on coding. This will help you understand the fundamentals to build a strong programming foundation. If you are a beginner or a coder who wants to refine their concepts then this course is for you. Enhance your demand in the technical job market. While we adhere to the standard worldwide curricula, this will give you the boost to kickstart your career in tech.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Variables and Data types",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "You will learn the fundamentals of variables and programming concepts, various data types, storing and manipulating data, data type declarations and more.",
       },
       {
-        name: "Learning English",
+        name: "Control Structures",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Introduction to control structures, usage of conditional statements (if, else), loops (for, while), switch statements (case or switch). You will learn to handle errors using control structures and control the flow of the program.",
       },
       {
-        name: "Introduction to Science",
+        name: "Functions",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Introduction to the basics of functions and concept, declaration of functions, exploring various parameters in functions and return values.",
       },
       {
-        name: "Hindi Language",
+        name: "Data Structures",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Introduction to fundamental data structures such as arrays, lists, concept of stacks and queues, understanding the storage and manipulation of data, structures and graphs.",
       },
       {
-        name: "Kannada Language",
+        name: "Operators",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Learn about different operators such as arithmetic, logical and comparison operators and more along with their functions, learn how to perform functions using operators with our coding exercises.",
       },
     ],
   },
   {
     id: 11,
-    name: "Cooking Lessons",
+    name: "Financial Literacy Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "Making better money decisions by increasing your knowledge on finances. Achieve financial freedom by setting practical financial goals and managing essentials by building on financial strategies. After taking this course you will increase your financial success by understanding techniques to maximize earnings, remain debt-free, perks of investing and its options, saving and budgeting strategies and more.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Budgeting",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "You will start with the basics of budgeting to understand your personal financial goals better which includes creating a budget and tracking it, learning about income, expenses and savings, setting long- term financial goals and usage of different methods of budgeting for responsible financial decisions.",
       },
       {
-        name: "Learning English",
+        name: "Saving",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Understanding savings for long-term and short term goals, making personalized saving plans, understanding savings and investments, developing healthy and consistent financial habits, further planning, emergency funds and dealing with unexpected expenses for a more effective management of finances.",
       },
       {
-        name: "Introduction to Science",
+        name: "Understanding Income",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Learn about various sources of income, salary, wages, bonuses and their implications. Understanding net income and gross income, investing to generate income and effective management of expenses.",
       },
       {
-        name: "Hindi Language",
+        name: "Debt Management",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Learn about different types of debt such as credit cards, mortgage, loans, creating repayment plans, conscious borrowing strategies to manage debt and avoiding scams for debt prevention.",
       },
       {
-        name: "Kannada Language",
+        name: "Credit Scores",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Understand the concept of credit scores. Learn the relationship that credit scores share with the borrowing and interest rates, debunked myths and misconceptions, improved credit scores and managing credit report for its responsible usage.",
       },
     ],
   },
   {
     id: 12,
-    name: "Coding",
+    name: "Career Counselling Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "Whether you are seeking for new career opportunities, looking to transition your career or looking for your dream jobs that align with your interests, this course will help you in every aspect of your professional development and prepare you to build your brand and attract better and upcoming opportunities. Get a well-rounded guidance to make better career decisions and get a deeper understanding of the power of networking, career planning and advancement and skill development.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Career Exploration",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "Discover upcoming and new career opportunities, research on different industries and self-assessment that make you a perfect fit for different roles depending on your profile and interests. Roadmap to career building models, for career transitions and discovering new possibilities.",
       },
       {
-        name: "Learning English",
+        name: "Education and Training Requirements",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "You will be guided and educated about the education and qualifications needed for various job roles and career paths. Effective strategies to get educated, train, find opportunities such as internships, certifications, skills and training in order to explore your career paths. Understanding the academic and practical foundation of the career of your choice.",
       },
       {
-        name: "Introduction to Science",
+        name: "Job Search Strategies",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "You will learn to prepare yourself to get your dream jobs. This shall include preparing effective resumes and CVs, interview preparation, effective job search, Optimization of online platforms to attract opportunities and overcoming challenges.",
       },
       {
-        name: "Hindi Language",
+        name: "Networking and Building Relationships",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Learn to build professional etiquettes and leverage your growth by using networking as a tool in professional settings. Network effectively online with professionals by building your personal brand.",
       },
       {
-        name: "Kannada Language",
+        name: "Complete Professional Development",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Get updated about the current trends across different industries, develop your skills actively and build a stronger resume for a stronger professional presence. Learn to get the best out of workshops and job events to seek opportunities.",
       },
     ],
   },
   {
     id: 13,
-    name: "Financial Literacy",
+    name: "Public Speaking Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "Become an influential speaker by learning ways to increase your persuasion and speaking skills, make use of your body language, understand the importance of dialogue delivery, adapt to different speaking styles depending on your audience and master your openings and closings by transforming structuring your content and showcasing confidence to overcome any fright.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Basic Speech Structure",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "Understand basics of a speech such as Introduction, body, conclusion. Learn to plan your speech and effective way of speech structuring to communicate effectively and connect with your audience.",
       },
       {
-        name: "Learning English",
+        name: "Non-verbal Communication",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "You will learn and practice body language, facial expressions, gestures, voice modulation and other essential techniques for a confident and effective delivery.",
       },
       {
-        name: "Introduction to Science",
+        name: "Vocal Variety",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Develop an in-depth understanding of vocal expressions that resonate with your spoken words. Learn to add emphasis and emotions and explore vocal ranges for an impactful delivery. Practice adding different tones to your spoken words to keep your audience engaged.",
       },
       {
-        name: "Hindi Language",
+        name: "Articulation and Pronunciation",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Enhance clarity and fluency in speaking by working on your vocal modulation and warm-ups and precise diction and enunciation of words. Engage in interactive activities to grasp proper pacing of your speech and stressing on consonant and vowels to express your thoughts and ideas for self-evaluation.",
       },
       {
-        name: "Kannada Language",
+        name: "Persuasion Techniques",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Learn different persuasion methods by appealing to your audience and to their emotions and logics. Practice handling objections and painpoints of your audience and learn to demonstrate your credibility. This art of persuasion takes you forward in every sphere of your life.",
       },
     ],
   },
   {
     id: 14,
-    name: "Career Counselling",
+    name: "Creative Writing Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "Foster your ability to think outside the box to write interesting stories and narratives by leveling up your imagination and cultivating an in-depth plot development. This course will take you through a step by step journey to make your writing more creative and to captivate your readers and use it as a powerful tool to contribute to the richness of creative writing. Write interesting and inspirational narratives with vivid characters, plot pace and storylines and more.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Subtext",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "Understand the subtext and learn to differentiate it from the explicit text. You will learn and practice the underlying themes and meanings in storytelling and different narratives. Writing exercises and prompts will help you incorporate subtexts and an effective characterization: characters, backgrounds, etc.",
       },
       {
-        name: "Learning English",
+        name: "Symbolism and Imagery",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Learn to incorporate symbols and vivid imagery to enhance the depth of your narratives. This session will help you navigate symbolism in different settings: actions, descriptions, finer details, effective imagery to make you a better writer.",
       },
       {
-        name: "Introduction to Science",
+        name: "Structural Implementation",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Get introduced to different narrative structures. Discover unconventional narrative structures, all multi perspectives to your content, episodic and parallel storylines and effectively control the pace of your narratives.",
       },
       {
-        name: "Hindi Language",
+        name: "Theme Exploration",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Learn about different literary themes, understand character developments and address elements that resonate with your theme, practice universal and personal theme selection to convey deeper elements in your writing.",
       },
       {
-        name: "Kannada Language",
+        name: "Narrative Point of View",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "This session will help you discover different points of views from which a narrative can be read contributing to the reader’s experience. It will enhance your skills by encouraging you to experiment with different points of view and their selection to evolve as a writer.",
       },
     ],
   },
   {
     id: 15,
-    name: "Creative Writing",
+    name: "Basic Computer Skills Course",
     totalSessions: 5,
     sessionDuration: "1 hour",
-    batchOptions: "1:1",
+    batchOptions: "1:1, Group",
     studentsInGroup: 5,
-    ageGroup: "8-10 years old",
+    ageGroup: null,
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: null,
     description:
-      "This course will help your child understand the intricacies of pronunciation, grasping the sound and decoding the words that help them build the foundation of the English language accurately and fluently. It is designed to ignite your child's love for language and easily deal with the complexities of communication.",
+      "This course will introduce fundamental understanding of computer operations and understanding essential tools to establish online communication and navigate computer systems effectively. You will learn to use online software applications, learn about computer security and the fundamentals of the internet enhancing your digital literacy while making your personal and professional workspace easier.",
     sessions: [
       {
-        name: "Mathematical Concepts",
+        name: "Operating System Basics",
         description:
-          "Students shall be taught mental maths abilities. We will make students understand and practise basic four mathematical operations, developing number sense, reading and interpreting data and graphs. Solving word problems, fractions and decimals.",
+          "Understand the basics and significance of operating systems and learn to operate Windows, macOS, Linux. Explore different computer parts and the functions of operating systems. Navigate user interface and get familiarized to get started.",
       },
       {
-        name: "Learning English",
+        name: "File Management",
         description:
-          "Foundation spellings and enhancing students' vocabulary, identification and correction of punctuation marks, parts of speech, practising reading comprehension and creative writing.",
+          "Learn about files and folders and their usage. Create and organize different files and navigate folder and file systems cloud storage and syncing, backup and restore files and categorize them for your ease, learn about different versions of files and their accessibility.",
       },
       {
-        name: "Introduction to Science",
+        name: "Basic Software Applications",
         description:
-          "Introducing scientific terminologies and engaging in various concepts such as: living things, eco system, weather and climate, forces and motion, matter, electricity and magnetism.",
+          "Introduction to different softwares such as Word processing softwares (Word office, google docs, etc.), spreadsheet softwares (Excel, googlesheets), Presentation softwares (Powerpoint, googleslides), navigating websites and URLs, organizing different documents, designing presentations.",
       },
       {
-        name: "Hindi Language",
+        name: "Internet Basics",
         description:
-          "Learning hindi alphabets (varnamala), vowel sounds (Swar), consonant sounds (Vyanjan), usage and concept of diacritical marks (Matra), basic hindi vocabulary, gender (Ling), sentence structure (vakya vyavastha), common idioms and expression, reading and writing practice.",
+          "Introduction to the internet and effectively using web browsers (chrome, safari), search engines, learning about online risks and safety, email and online communication and conducting smart searches online and more.",
       },
       {
-        name: "Kannada Language",
+        name: "Google Workspace",
         description:
-          "Learning Alphabets (Akshara Maale), vowel sounds (svara), consonant sounds (vyanjana), Matra (matragala), basic vocabulary, gender (linga), forming sentence structure (vakya vyastha), common idioms and expression, reading and writing practice.",
+          "Introduction and setting up of GoogleDrive, Gmail, Google Calendar, Google Slides, Google sheets, Google forms and Google meet, learn the best and most productive practices and tips to work and collaborate and integrate tools in your work system.",
       },
     ],
   },
