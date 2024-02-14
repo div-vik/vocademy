@@ -156,7 +156,7 @@ const Careers = () => {
         </div>
       </div>
 
-      <Link href="https://wa.me/9108255341?text=Hello%20I%20have%20few%20questions%20regarding%20online%20ordering.%20Are%20you%20free%20to%20chat%20now%3F">
+      <Link href="https://wa.me/9108255341?text=I%20inquired%20about%20potential%20job%20opportunities%20within%20your%20organization.">
         <Button
           title="join now"
           className="mt-[43px] lg:mt-[109px] xl:mt-[79px] text-[15.77px] lg:text-[24px] xl:text-[32px]"

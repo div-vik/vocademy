@@ -35,7 +35,7 @@ const Contact = () => {
           <div className="flex justify-center w-full items-center mt-[14.25px] lg:mt-[31px]">
             <Link
               target="_blank"
-              href="https://wa.me/9108255341?text=Hello%20I%20have%20few%20questions%20regarding%20online%20ordering.%20Are%20you%20free%20to%20chat%20now%3F"
+              href="https://wa.me/9108255341?text=Hi,%20I%20have%20questions%20regarding%20the%20course.%20Are%20you%20free%20to%20chat%20now%3F"
               className="w-[39.517px] lg:w-[82px] h-[39.517px] lg:h-[82px] mb-[27.57px]"
             >
               <Image
