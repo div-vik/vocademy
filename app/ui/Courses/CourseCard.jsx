@@ -20,7 +20,7 @@ const CourseCard = ({ course, handleOpen, isOpen, handleCourseName }) => {
         <div
           className={
             isHover === true
-              ? "w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] hover:bg-black hover:border-black hover:text-white bg-black text-white ease-in-out duration-500 cursor-pointer flex justify-center items-center border-primaryPink rounded-full"
+              ? "w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] hover:bg-black hover:border-black hover:text-white bg-black border-black text-white ease-in-out duration-500 cursor-pointer flex justify-center items-center rounded-full"
               : "w-[32.316px] h-[32.316px] lg:w-[54.416px] lg:h-[54.416px] xl:w-[38.927px] xl:h-[38.297px] border-[2.49px] lg:border-[4.19px] xl:border-[3px] hover:bg-black hover:border-black hover:text-white ease-in-out duration-500 cursor-pointer flex justify-center items-center border-primaryPink rounded-full"
           }
         >

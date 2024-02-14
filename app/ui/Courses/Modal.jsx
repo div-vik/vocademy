@@ -48,8 +48,8 @@ const Modal = ({ handleOpen, isOpen, course }) => {
                   <p>Certificate of Completion: {info.certificate}</p>
                   <p>Timings and Date:</p>
                   <p>
-                    Fee: Rs {group} for Group <br />
-                    Rs. {oneToOne} for 1:1
+                    Fee: {group} for Group <br />
+                    {oneToOne} for 1:1
                   </p>
                 </div>
               </div>
@@ -59,11 +59,15 @@ const Modal = ({ handleOpen, isOpen, course }) => {
                 {/* Session of Courses */}
                 {info.sessions.map((session, index) => (
                   <div
-                    className=" w-[171.771px] lg:w-[387.319px] xl:w-[547px]"
+                    className={
+                      info.additionalLearning === null && index + 1 === 5
+                        ? "w-[171.771px] lg:w-[387.319px] xl:w-[547px] col-span-2"
+                        : "w-[171.771px] lg:w-[387.319px] xl:w-[547px]"
+                    }
                     key={index}
                   >
                     <p className="font-bold text-primaryPink">
-                      Session 1: {session.name}
+                      Session {index + 1}: {session.name}
                     </p>
                     <p className="mt-[13.92px] lg:mt-[15.4px] xl:mt-[21px] font-medium">
                       {session.description}
@@ -72,18 +76,21 @@ const Modal = ({ handleOpen, isOpen, course }) => {
                 ))}
 
                 {/* Additional Learnings */}
-                <div className=" w-[171.771px] lg:w-[387.319px] xl:w-[547px]">
-                  {info.additionalLearning !== null && (
-                    <p className="mb-[13.92px] lg:mb-[15.4px] xl:mb-[21px] font-bold text-primaryPink">
-                      Additional Learning
-                    </p>
-                  )}
-                  {info.additionalLearning?.map((learning, index) => (
-                    <div key={index}>
-                      <p className="font-medium">{learning}</p>
-                    </div>
-                  ))}
-                </div>
+                {info.additionalLearning !== null && (
+                  <div className=" w-[171.771px] lg:w-[387.319px] xl:w-[547px]">
+                    <>
+                      <p className="mb-[13.92px] lg:mb-[15.4px] xl:mb-[21px] font-bold text-primaryPink">
+                        Additional Learning
+                      </p>
+                      {info.additionalLearning &&
+                        info.additionalLearning?.map((learning, index) => (
+                          <div key={index}>
+                            <p className="font-medium">{learning}</p>
+                          </div>
+                        ))}
+                    </>
+                  </div>
+                )}
               </div>
 
               {/* Course Description */}
