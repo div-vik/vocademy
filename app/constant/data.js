@@ -78,7 +78,7 @@ export const topics = [
 
 export const feedbacks = [
   {
-    name: "- Krish Parihar",
+    name: "- RouakMulchandi",
     review:
       'I must admit that I was aggressive and reluctant to study. As someone who has Down syndrome, it was hard to read and write but after continuous coaching, my abilities improved with time. I gradually learned to do basic skills myself and even talk fluently. My parents are so happy now. I feel stable and focused."',
     designation: "Student",
@@ -90,7 +90,7 @@ export const feedbacks = [
     designation: "Student",
   },
   {
-    name: "- Krish Parihar",
+    name: "- -Insha K Khatijal",
     review:
       'As a recruiter, work life can get hard and that&apos;s when you realize you need help. This is exactly where Vocademy stepped in. Their stress management course isn&apost just a course but an in-depth self reflection which helped me achieve a balance. The expert helped me throughout. I feel more at peace and productive at work and home."',
   },
@@ -354,8 +354,8 @@ export const courses = [
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: [
@@ -406,8 +406,8 @@ export const courses = [
     studyMaterials: "Soft copy shall be provided",
     certificate: "Digital certificate shall be provided",
     fees: {
-      group: "3000/-",
-      oneToOne: "800/-",
+      group: "Rs 3000/-",
+      oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
     additionalLearning: [
@@ -508,8 +508,9 @@ export const courses = [
       oneToOne: "Rs. 800/-",
     },
     timingsAndDate: null,
-    additionalLearning:
+    additionalLearning: [
       "Elements of Public Speaking, Work on body language and gestures, Active listening techniques, Management of emotions",
+    ],
     description:
       "This course is for individuals seeking to get rid of their anxiety and fear of communication and build authentic communication while holding persuasive conversations whether in personal or professional settings to set you apart from the crowd.",
     sessions: [
@@ -576,7 +577,13 @@ export const courses = [
       },
       {
         name: "Garment Fitting",
-        description: "The focus",
+        description:
+          "The focus is on  precise cutting for fittings and adjustments for a personalized fit by using live models. Analyzing common fit issues and body proportions to overcome such challenges. ",
+      },
+      {
+        name: "Fashion Designs Principles",
+        description:
+          "The session delves into the design process and fashion trends. You will learn colour theory and understanding design elements such as (proportion, textures, garment styles, etc.) ",
       },
     ],
   },
