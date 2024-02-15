@@ -201,7 +201,7 @@ export const faqs = [
   {
     answer:
       "Vocademy offers 15 different life-skill based courses ranging from financial literacy to Academic foundation courses. All the details are given on the home page.",
-    question: "What courses does Voademyy offer?",
+    question: "What courses does Vocademyy offer?",
   },
   {
     answer: "The fee range is Rs 2000-3000/  for  5 hours of each course.",
